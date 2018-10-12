@@ -1,0 +1,141 @@
+/* navbar */
+.navbar-custom {
+  background-color: black;
+  border-color: #FFFFFF;
+}
+
+/* navbar default text */
+.navbar-custom .navbar-nav > li > a {
+  color: white;
+}
+
+/* navbar tabs */
+.navbar-custom .navbar-nav > li {
+  margin: 0 2px;
+}
+
+/* navbar active tab */
+.navbar-custom .navbar-nav > .active-tab > a,
+.navbar-custom .navbar-nav > .active-tab > a:hover,
+.navbar-custom .navbar-nav > .active-tab > a:focus {
+  background-color: #FFD400;
+  color: #000000;
+  border-radius: 2px;
+  font-weight: bold;
+}
+
+/* navbar hover over tabs */
+.navbar-custom .navbar-nav > li > a:hover,
+.navbar-custom .navbar-nav > li > a:focus {
+  background-color: #666666;
+  border-radius: 2px;
+}
+
+.dropdown-menu {
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+/* dropdown menu divider */
+.dropdown-menu .divider {
+  margin-top: 0;
+  margin-bottom: 0;
+  background-color: #E0E0E0;
+}
+
+/* dropdown menu list items */
+.dropdown-menu > li > a {
+  background-color: #000000;
+  color: #FFFFFF;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+/* display drop down menu on hover */
+.dropdown:hover .dropdown-menu {
+  display: block;
+  margin-top: 0;
+}
+
+.eagle-icon {
+  margin-top: -15px;
+  margin-left: -15px;
+  margin-right: 30px;
+  height: 50px;
+  width: 50px;
+}
+
+/* social media logos */
+.logo {
+  margin-top: -8px;
+  height: 35px;
+  width: 35px;
+}
+.logo2 {
+  margin-top: -8px;
+  height: 35px;
+  width: 60px;
+}
+
+
+/* navbar social media icons */
+/* .navbar-brand > img.logo {
+background-color: white;
+} */
+
+.navbar-custom .navbar-brand, img:hover,
+.navbar-custom .navbar-brand, img:focus {
+  color: red;
+  /* background-color: transparent; */
+}
+
+/* for footer text */
+.navbar-text {
+  position: relative;
+  width: 100%;
+}
+
+.bottom {
+  /* to keep it at the bottom of the page */
+  position: absolute;
+  bottom: 0;
+  margin-top: 10px;
+}
+
+/* .navbar-fixed-bottom {
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  heigh: 60px;
+} */
+
+/* to change color of hamburger menu */
+.navbar-custom .navbar-toggle .icon-bar {
+    background-color: white;
+}
+
+.footer-text {
+  font-size: 12px;
+}
+
+.relative {
+  position: relative;
+}
+
+.navbar .navbar-nav {
+  display: inline-block;
+  float: none;
+  vertical-align: top;
+}
+
+.navbar .navbar-collapse {
+  text-align: center;
+}
+
+.acm-logo{
+	height: 100px;
+  	width: 100px;
+  	display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
