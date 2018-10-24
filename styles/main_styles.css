@@ -336,7 +336,7 @@ section
 	padding-left: 48px;
 	padding-right: 48px;
 	z-index: 20;
-	background: #FFFFFF;
+	background: #000000;
 	-webkit-transition: all 300ms ease;
 	-moz-transition: all 300ms ease;
 	-ms-transition: all 300ms ease;
@@ -350,18 +350,19 @@ section
 
 .logo_container
 {
-	flex-basis: 50%;
+	margin-top: -1.1rem;
+	flex-basis: 10%;
 }
 .logo
 {
-	margin-left: 7px;
+	margin-left: 4rem;
 }
 .logo a
 {
 	font-family: 'Montserrat', sans-serif;
 	font-size: 30px;
 	font-weight: 700;
-	color: #171717;
+	color: #FFFFFF;
 	text-transform: uppercase;
 }
 .logo span:first-of-type
@@ -403,7 +404,7 @@ section
 	font-size: 12px;
 	font-weight: 600;
 	text-transform: uppercase;
-	color: #0b1033;
+	color: #FFFFFF;
 	letter-spacing: 3.5px;
 	height: 100%;
 	display: -webkit-box;
@@ -419,7 +420,7 @@ section
 }
 .nav_items li.active
 {
-	background: #ff4200;
+	background: #FFD400;
 }
 .nav_items li.active a
 {
@@ -427,7 +428,7 @@ section
 }
 .nav_items li:hover
 {
-	background: #ff4200;
+	background: #FFD400;
 }
 .nav_items li:hover a
 {
@@ -460,8 +461,9 @@ section
 	display: inline-block;
 	width: 22px;
 	height: 3px;
-	background: #171717;
+	background: #FFFFFF;
 	margin-bottom: 4px;
+	margin-right: 4rem;
 }
 .hamburger_icon::before,
 .hamburger_icon::after
