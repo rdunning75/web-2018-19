@@ -5,7 +5,7 @@
 
 [Table of Contents]
 
-1. 1600px
+1. 1525px
 2. 1440px
 3. 1280px
 4. 1199px
@@ -22,8 +22,17 @@
 ******************************/
 
 
-@media only screen and (max-width: 1600px)
+@media only screen and (max-width: 1525px)
 {
+    .main_nav
+    {
+        display: none;
+    }
+
+    .hamburger_container
+    {
+        display: block;
+    }
 	
 }
 
@@ -61,6 +70,7 @@
 	{
 		right: 10%;
 	}
+
 }
 
 /************
@@ -69,6 +79,8 @@
 
 @media only screen and (max-width: 1380px)
 {
+
+
 	
 }
 
