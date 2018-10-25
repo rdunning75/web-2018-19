@@ -350,7 +350,8 @@ section
 
 .logo_container
 {
-	flex-basis: 50%;
+	flex-basis: 20%;
+
 }
 .logo
 {
@@ -385,7 +386,7 @@ section
 {
 	margin-right: -3px;
 	height: 100%;
-	flex-basis: 300%;
+	flex-basis: 100%;
 	text-align: right;
 }
 .nav_items
@@ -910,7 +911,7 @@ section
 	margin-bottom: 116px;
     z-index: 2;
 }
-.section_title  span
+.section_title span
 {
 	display: block;
 	position: absolute;
@@ -923,9 +924,9 @@ section
 	transform: translate(-50%, -50px);
 	font-size: 72px;
 	font-weight: 900;
-	z
-	opacity: 0.32;
-    z-index: 0;
+	color: darkgoldenrod;
+	opacity: 0.52;
+    z-index: -1;
 }
 .section_title h2::before
 {
