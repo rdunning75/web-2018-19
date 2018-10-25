@@ -681,6 +681,7 @@ section
 	width: 100%;
 	height: 840px;
 	margin-top: 110px;
+    margin-bottom: 200px;
 }
 .main_slider_shapes
 {
@@ -907,8 +908,9 @@ section
 	color: #FFFFFF;
 	line-height: 1.35;
 	margin-bottom: 116px;
+    z-index: 2;
 }
-.section_title h2 span
+.section_title  span
 {
 	display: block;
 	position: absolute;
@@ -921,8 +923,9 @@ section
 	transform: translate(-50%, -50px);
 	font-size: 72px;
 	font-weight: 900;
-	color: #ff0000;
+	z
 	opacity: 0.32;
+    z-index: 0;
 }
 .section_title h2::before
 {
@@ -1157,7 +1160,8 @@ section
 .services_background
 {
 	position: absolute;
-	top: 0;
+
+	top: 15%;
 	left: 0;
 	width: 100%;
 	height: 100%;
