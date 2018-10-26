@@ -13,24 +13,6 @@ COLOR PALETTE
 1. Fonts
 2. Body and some general stuff
 3. Header
-	3.1 Logo
-	3.2 Main Navigation
-	3.3 Hamburger Menu
-	3.4 Full Screen Menu
-4. Main Slider
-	4.1 Main Slider Dots
-	4.2 Main Slider Nav
-5. Home Social
-6. Features
-7. About
-	7.1 About Progress Bars
-8. Testimonials
-	8.1 Testimonials Navigation
-9. Services
-10. Clients
-	10.1 Clients Slider
-11. Contact
-12. Footer
 
 
 
@@ -41,16 +23,6 @@ COLOR PALETTE
 ***********/
 
 @import url('https://fonts.googleapis.com/css?family=Montserrat:700|Open+Sans:300,400,600,700,800');
-@font-face
-{
-	font-family: 'Myriad Pro Regular';
-	src: url('../fonts/myriad-pro-regular.ttf')  format('truetype'),
-		 url('../fonts/myriad-pro-regular.otf')  format('opentype');
-}
-@font-face {
-	font-family: 'Orbitron';
-	src: url('https://fonts.googleapis.com/css?family=Orbitron');
-}
 
 /*********************************
 2. Body and some general stuff
@@ -136,7 +108,7 @@ p::selection
 {
 	background: #fde0db;
 }
-h1{font-size: 72px;}
+h1{font-size: 48px;}
 h2{font-size: 30px;}
 h3{font-size: 18px;}
 h4{font-size: 14px;}
@@ -148,14 +120,14 @@ h1, h2, h3, h4, h5, h6
 	-webkit-text-shadow: rgba(0,0,0,.01) 0 0 1px;
 	text-shadow: rgba(0,0,0,.01) 0 0 1px;
 }
-h1::selection,
-h2::selection,
-h3::selection,
-h4::selection,
-h5::selection,
+h1::selection, 
+h2::selection, 
+h3::selection, 
+h4::selection, 
+h5::selection, 
 h6::selection
 {
-
+	
 }
 ::-webkit-input-placeholder
 {
@@ -169,14 +141,14 @@ h6::selection
 	font-weight: 500;
 	color: #777777 !important;
 }
-::-moz-placeholder /* Firefox 19+ */
+::-moz-placeholder /* Firefox 19+ */ 
 {
 	font-size: 16px !important;
 	font-weight: 500;
 	color: #777777 !important;
-}
+} 
 :-ms-input-placeholder
-{
+{ 
 	font-size: 16px !important;
 	font-weight: 500;
 	color: #777777 !important;
@@ -269,8 +241,14 @@ section
 {
 	width: 187px;
 	height: 66px;
-	background: #ff4200;
+	border-radius: 4px;
+	text-align: center;
+	/*background:	;*/
 	overflow: hidden;
+}
+.line_button
+{
+	border: solid 1px #FFFFFF;
 }
 .button a
 {
@@ -282,7 +260,7 @@ section
 	line-height: 66px;
 	text-transform: uppercase;
 	letter-spacing: 6.7px;
-
+	
 }
 .button a img
 {
@@ -327,145 +305,6 @@ section
 }
 
 /*********************************
-4. Main Slider
-*********************************/
-
-.home
-{
-	overflow: hidden;
-}
-.hero_slider_container
-{
-	width: 100%;
-	height: 840px;
-	margin-top: 110px;
-}
-.main_slider_shapes
-{
-	position: absolute;
-	top: 50%;
-	-webkit-transform: translateY(-50%);
-	-moz-transform: translateY(-50%);
-	-ms-transform: translateY(-50%);
-	-o-transform: translateY(-50%);
-	transform: translateY(-50%);
-	right: 16%;
-	max-width: 25%;
-	height: auto;
-	z-index: 2;
-}
-.main_slider_item_bg
-{
-	position: absolute;
-	top: 0;
-	left: 0;
-	width: 100%;
-	height: 100%;
-	background-repeat: no-repeat;
-	background-size: cover;
-	background-position: center center;
-}
-.main_slider_content
-{
-	width: 610px;
-	height: 100%;
-	margin-top: 240px;
-}
-.main_slider_content h1
-{
-	font-weight: 300;
-	line-height: 1.15;
-	color: #FFFFFF;
-}
-.main_slider_content h1 span
-{
-	font-family: 'Myriad Pro Regular', sans-serif;
-}
-.main_slider_content p
-{
-	font-size: 16px;
-	font-weight: 300;
-	color: #FFFFFF;
-	padding-left: 5px;
-	margin-top: 1px;
-}
-.discover_button
-{
-	margin-top: 42px;
-	margin-left: 5px;
-}
-
-/*********************************
-4.1 Main Slider Dots
-*********************************/
-
-.main_slider_dots
-{
-	position: absolute;
-	left: 0;
-	bottom: 0;
-	height: 74px;
-	width: 100%;
-	z-index: 11;
-}
-.main_slider_custom_dots li
-{
-	display: inline-block;
-	font-size: 14px;
-	font-weight: 300;
-	line-height: 74px;
-	color: #FFFFFF;
-	padding-left: 12px;
-	padding-right: 12px;
-	cursor: pointer;
-	margin-right: -4px;
-}
-.main_slider_custom_dots li.active
-{
-	background: #ff4200;
-}
-.main_slider_custom_dot.active,
-.main_slider_custom_dot:hover
-{
-	background: #ff4200;
-}
-
-/*********************************
-4.2 Main Slider Nav
-*********************************/
-
-.main_slider_nav
-{
-	position: absolute;
-	top: 50%;
-	-webkit-transform: translateY(-50%);
-	-moz-transform: translateY(-50%);
-	-ms-transform: translateY(-50%);
-	-o-transform: translateY(-50%);
-	transform: translateY(-50%);
-	z-index: 11;
-	padding: 10px;
-	cursor: pointer;
-}
-.main_slider_nav_left
-{
-	left: 39px;
-}
-.main_slider_nav_right
-{
-	right: 39px;
-}
-.main_slider_nav i
-{
-	color: #FFFFFF;
-	font-size: 18px;
-}
-.main_slider_nav:hover i
-{
-	color: #ff4200;
-}
-
-/*********************************
 5. Home Social
 *********************************/
 
@@ -474,9 +313,9 @@ section
 	position: absolute;
 	top: 110px;
 	right: 0px;
-	width: auto;
-	height: 74px;
-	background: #ff4200;
+	width: 144px;
+	height: 40px;
+	background: #000000;
 	z-index: 11;
 	padding-right: 38px;
 	padding-left: 45px;
@@ -490,16 +329,16 @@ section
 {
 	width: 100%;
 	height: 100%;
-	padding: 10px;
+	padding: 2px;
 }
 .home_social li i
 {
-	font-size: 13px;
-	color: rgba(255,255,255,0.6);
+	font-size: 20px;
+	color: #FFFFFF;
 }
 .home_social li:hover i
 {
-	color: rgba(255,255,255,1);
+	color: #FFD400;
 }
 
 /*********************************
@@ -530,31 +369,9 @@ section
 }
 
 /*********************************
-7. About
+7. Section Title
 *********************************/
 
-.about
-{
-	padding-top: 195px;
-	padding-bottom: 175px;
-}
-.about_background
-{
-	position: absolute;
-	top: 0;
-	left: 0;
-	width: 100%;
-	height: 100%;
-	background-repeat: no-repeat;
-	background-size: cover;
-	background-position: center center;
-}
-.about_shapes
-{
-	position: absolute;
-	top: 0;
-	left: 0;
-}
 .section_title h2
 {
 	display: inline-block;
@@ -598,207 +415,58 @@ section
 	content: '';
 	background: #FFFFFF;
 }
-.about_text
-{
-	padding-right: 50px;
-}
-.about_text p
-{
-	color: #FFFFFF;
-	margin-bottom: 0px;
-}
-.about_text img
-{
-	margin-top: 20px;
-}
 
 /*********************************
-7.1 About Progress Bars
+9. Page Top
 *********************************/
 
-.skills_container
-{
-	padding-top: 10px;
-}
-.pb_item
-{
-	margin-bottom: 18px;
-}
-.pb_item h5
-{
-	text-transform: uppercase;
-	color: #FFFFFF;
-	letter-spacing: 0.3em;
-	margin-top: 18px;
-}
-.skill_bars
-{
-	height: 3px;
-}
-.progressbar-text
-{
-	width: 48px;
-	font-family: 'Open Sans', sans-serif;
-	font-size: 11px;
-	text-transform: uppercase;
-	letter-spacing: 0.3em;
-	text-align: right;
-}
-
-/*********************************
-8. Testimonials
-*********************************/
-
-.testimonials
-{
-	padding-top: 195px;
-	z-index: 2;
-}
-.section_title_dark h2
-{
-	color: #1c1c1c;
-}
-.section_title_dark h2::before
-{
-	background: #ff4200;
-}
-.testimonials_container
+.home
 {
 	width: 100%;
+	height: 386px;
+	margin-top: 110px;
 }
-.testimonials_container_inner
+.home_background
 {
 	position: absolute;
-	top: 28px;
+	top: 0;
 	left: 0;
 	width: 100%;
-	height: calc(100% - 28px);
-	box-shadow: 0 22px 35px rgba(0,0,0,0.28);
+	height: 100%;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
 }
-.testimonials_container_inner::before
-{
-	display: block;
-	position: absolute;
-	top: 35px;
-	left: -35px;
-	width: calc(100% + 70px);
-	height: calc(100% - 70px);
-	content: '';
-	background: rgba(242,244,249,0.85);
-	z-index: -1;
-}
-.testimonials_container_inner::after
-{
-	display: block;
-	position: absolute;
-	top: 70px;
-	left: -85px;
-	width: calc(100% + 170px);
-	height: calc(100% - 140px);
-	content: '';
-	background: rgba(242,244,249,0.65);
-	z-index: -2;
-}
-.testimonials_slider
-{
-	z-index: 10;
-}
-.testimonials_item
-{
-	padding-top: 28px;
-	background: #FFFFFF;
-}
-.testimonials_content
-{
-	padding-left: 120px;
-	padding-right: 120px;
-	padding-bottom: 49px;
-	padding-top: 120px;
-	max-width: 100%;
-}
-.test_name
-{
-	font-size: 16px;
-	font-weight: 600;
-	letter-spacing: 0.2em;
-	color: #1c1c1c;
-	text-transform: uppercase;
-}
-.test_title
-{
-	font-size: 15px;
-	font-weight: 400;
-	color: #ff4200;
-	margin-top: -5px;
-}
-.test_quote
-{
-	font-size: 30px;
-	line-height: 1;
-	color: #ff4200;
-	font-style: italic;
-	margin-top: 15px;
-}
-.testimonials_content p
-{
-	max-width: 100%;
-}
-.testimonials_content p:first-of-type
-{
-	margin-top: -3px;
-}
-.test_user_pic
+.services_page_shapes
 {
 	position: absolute;
-	top: -28px;
-	left: 50%;
-	-webkit-transform: translateX(-50%);
-	-moz-transform: translateX(-50%);
-	-ms-transform: translateX(-50%);
-	-o-transform: translateX(-50%);
-	transform: translateX(-50%);
-	width: 94px;
-	height: 94px;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+	pointer-events: none;
 }
-
-/*********************************
-8.1 Testimonials Navigation
-*********************************/
-
-.test_slider_nav
+.home_content
 {
-	position: absolute;
-	top: 50%;
-	-webkit-transform: translateY(-50%);
-	-moz-transform: translateY(-50%);
-	-ms-transform: translateY(-50%);
-	-o-transform: translateY(-50%);
-	transform: translateY(-50%);
-	width: 48px;
-	height: 48px;
-	cursor: pointer;
-	z-index: 10;
+	margin-top: 154px;
 }
-.test_slider_nav:hover
+.home_content h1
 {
-	background: #ff4200;
-}
-.test_slider_nav:hover i
-{
+	font-weight: 300;
 	color: #FFFFFF;
+	margin-bottom: 2px;
 }
-.test_slider_nav i
+.home_content span
 {
-	font-size: 18px;
-	color: #ff4200;
-}
-.test_slider_nav_left
-{
-	left: -48px;
-}
-.test_slider_nav_right
-{
-	right: -48px;
+	font-size: 12px;
+	font-weight: 600;
+	color: #FFFFFF;
+	letter-spacing: 1em;
+	text-transform: uppercase;
+	padding-left: 3px;
 }
 
 /*********************************
@@ -807,10 +475,8 @@ section
 
 .services
 {
-	padding-top: 152px;
+	padding-top: 120px;
 	padding-bottom: 120px;
-	z-index: 1;
-	margin-top: -32px;
 }
 .services_background
 {
@@ -835,14 +501,15 @@ section
 }
 .service_item h3
 {
-	color: #FFFFFF;
+	color: #1c1c1c;
+	font-weight: 600;
 	text-transform: uppercase;
 	letter-spacing: 0.2em;
 	margin-bottom: 31px;
 }
 .service_item p
 {
-	color: #FFFFFF;
+	color: #6e6e6e;
 	max-width: 100%;
 }
 .icon_container
@@ -859,49 +526,107 @@ section
 }
 
 /*********************************
-10. Clients
+9. Cards
 *********************************/
 
-.clients
+.zeta_cards
 {
-	padding-top: 192px;
-	padding-bottom: 110px;
+	width: 100%;
+}
+.zeta_card
+{
+	padding-top: 208px;
+	padding-bottom: 195px;
+	padding-left: 134px;
+	padding-right: 100px;
+}
+.zeta_card_content
+{
+
+}
+.zeta_card_content h2
+{
+	font-size: 24px;
+	letter-spacing: 0.2em;
+	color: #FFFFFF;
+	text-transform: uppercase;
+	margin-bottom: 27px;
+}
+.zeta_card_content p
+{
+	color: #FFFFFF;
+}
+.zeta_card_button
+{
+	margin-top: 46px;
+}
+.zeta_card_background
+{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	z-index: -1;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
 }
 
 /*********************************
-10.1 Clients Slider
+11. Picture Boxes
 *********************************/
 
-.clients_slider
+.picture_boxes
 {
-	margin-top: 87px;
-	cursor: pointer;
+	padding-top: 132px;
+	padding-bottom: 118px;
 }
-.clients_item
+.card
 {
-
+	border: none;
 }
-.clients_item img
+.pic_box_title
 {
-	margin: 0 auto;
-	-webkit-filter: opacity(50%) grayscale(100%);
-	-ms-filter: opacity(30%), grayscale(100%);
-	-moz-filter: opacity(30%) grayscale(100%);
-	filter: opacity(30%) grayscale(100%);
-	-webkit-transition: all 300ms ease;
-	-moz-transition: all 300ms ease;
-	-ms-transition: all 300ms ease;
-	-o-transition: all 300ms ease;
-	transition: all 300ms ease;
+	text-transform: uppercase;
+	font-weight: 600;
+	letter-spacing: 0.2em;
+	margin-top: 40px;
+	margin-bottom: 31px;
 }
-.clients_item:hover img
+.pic_box_link
 {
-	-webkit-filter: opacity(100%) grayscale(0%);
-	filter: opacity(100%) grayscale(0%);
+	font-size: 12px;
+	font-weight: 600;
+	letter-spacing: 0.2em;
+	color: #ff4200;
+	text-transform: uppercase;
+	margin-top: 11px;
+	-webkit-transition: all 200ms ease;
+	-moz-transition: all 200ms ease;
+	-ms-transition: all 200ms ease;
+	-o-transition: all 200ms ease;
+	transition: all 200ms ease;
 }
-.owl-carousel .owl-item img
+.pic_box_link svg
 {
-	width: auto !important;
+	margin-left: 3px;
+}
+.arrow_poly
+{
+	-webkit-transition: all 200ms ease;
+	-moz-transition: all 200ms ease;
+	-ms-transition: all 200ms ease;
+	-o-transition: all 200ms ease;
+	transition: all 200ms ease;
+}
+.pic_box_link:hover
+{
+	color: #fd9672;
+}
+.pic_box_link:hover .arrow_poly
+{
+	fill: #fd9672;
 }
 
 /*********************************
