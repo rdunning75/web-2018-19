@@ -1,119 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>ACM</title>
+    <title>ACM| About</title>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="description" content="Zeta Template Project">
+    <meta name="description" content="Zeta Template Project - Elements">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" href="styles/bootstrap4/bootstrap.min.css">
     <link href="plugins/fontawesome-free-5.0.1/css/fontawesome-all.css" rel="stylesheet" type="text/css">
     <link rel="stylesheet" type="text/css" href="plugins/OwlCarousel2-2.2.1/owl.carousel.css">
     <link rel="stylesheet" type="text/css" href="plugins/OwlCarousel2-2.2.1/owl.theme.default.css">
     <link rel="stylesheet" type="text/css" href="plugins/OwlCarousel2-2.2.1/animate.css">
-    <link rel="stylesheet" type="text/css" href="styles/main_styles.css">
-    <link rel="stylesheet" type="text/css" href="styles/responsive.css">
-    <link rel="stylesheet" href="css/master.css">
-    <link rel="stylesheet" href="css/navbar.css">
-    <link rel="stylesheet" href="css/styleSheet.css">
+    <link rel="stylesheet" type="text/css" href="plugins/js-flickr-gallery-1.24/js-flickr-gallery.css">
+    <link href="plugins/colorbox/colorbox.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" type="text/css" href="styles/elements_styles.css">
+    <link rel="stylesheet" type="text/css" href="styles/elements_responsive.css">
 </head>
-<style>
-body {font-family: Arial, Helvetica, sans-serif;}
-* {box-sizing: border-box;}
-/* Full-width input fields */
-input[type=text], input[type=password] {
-    width: 100%;
-    padding: 15px;
-    margin: 5px 0 22px 0;
-    display: inline-block;
-    border: none;
-    background: #f1f1f1;
-}
-/* Add a background color when the inputs get focus */
-input[type=text]:focus, input[type=password]:focus {
-    background-color: #ddd;
-    outline: none;
-}
-/* Set a style for all buttons */
-button {
-    background-color: #4CAF50;
-    color: white;
-    padding: 14px 20px;
-    margin: 8px 0;
-    border: none;
-    cursor: pointer;
-    width: 100%;
-    opacity: 0.9;
-}
-button:hover {
-    opacity:1;
-}
-/* Extra styles for the cancel button */
-.cancelbtn {
-    padding: 14px 20px;
-    background-color: #f44336;
-}
-/* Float cancel and signup buttons and add an equal width */
-.cancelbtn, .signupbtn {
-  float: left;
-  width: 50%;
-}
-/* Add padding to container elements */
-.container {
-    padding: 16px;
-}
-/* The Modal (background) */
-.modal {
-    display: none; /* Hidden by default */
-    position: fixed; /* Stay in place */
-    z-index: 1; /* Sit on top */
-    left: 0;
-    top: 0;
-    width: 100%; /* Full width */
-    height: 100%; /* Full height */
-    overflow: auto; /* Enable scroll if needed */
-    background-color: #474e5d;
-    padding-top: 50px;
-}
-/* Modal Content/Box */
-.modal-content {
-    background-color: #fefefe;
-    margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
-    border: 1px solid #888;
-    width: 80%; /* Could be more or less, depending on screen size */
-}
-/* Style the horizontal ruler */
-hr {
-    border: 1px solid #f1f1f1;
-    margin-bottom: 25px;
-}
-/* The Close Button (x) */
-.close {
-    position: absolute;
-    right: 35px;
-    top: 15px;
-    font-size: 40px;
-    font-weight: bold;
-    color: #f1f1f1;
-}
-.close:hover,
-.close:focus {
-    color: #f44336;
-    cursor: pointer;
-}
-/* Clear floats */
-.clearfix::after {
-    content: "";
-    clear: both;
-    display: table;
-}
-/* Change styles for cancel button and signup button on extra small screens */
-@media screen and (max-width: 300px) {
-    .cancelbtn, .signupbtn {
-       width: 100%;
-    }
-}
-</style>
 <body>
 
 <div class="super_container">
@@ -169,6 +71,9 @@ hr {
                 <li><a href="#"><span><span>C</span>Contact</span></a></li>
             </ul>
         </nav>
+
+    </header>
+
         <div class="fs_social_container d-flex flex-row justify-content-end align-items-center">
             <ul class="fs_social">
                 <li><a href="#"><i class="fa fa-facebook-f trans_300"></i></a></li>
@@ -177,224 +82,172 @@ hr {
         </div>
     </div>
 
-    <!-- Hero Slider -->
+    <!-- Home -->
 
+    <div class="home prlx_parent">
+
+        <!-- Parallax Background -->
+        <div class="home_background prlx" style="background-image:url(images/blog_background.jpg)"></div>
+        <div class="services_page_shapes" style="background-image:url(images/services_page_shapes.png)"></div>
+
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="home_content">
+                        <h1>About</h1>
+                        <span>get to know us</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
     <div class="home_social_container d-flex flex-row justify-content-end align-items-center">
         <ul class="home_social">
+            <li><a href="#"><i class="fab fa-pinterest trans_300"></i></a></li>
             <li><a href="#"><i class="fab fa-facebook-f trans_300"></i></a></li>
-            <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+            <li><a href="#"><i class="fab fa-twitter trans_300"></i></a></li>
+            <li><a href="#"><i class="fab fa-dribbble trans_300"></i></a></li>
+            <li><a href="#"><i class="fab fa-behance trans_300"></i></a></li>
+            <li><a href="#"><i class="fab fa-linkedin-in trans_300"></i></a></li>
         </ul>
     </div>
 
-    <!-- Features -->
-    <!-- section-->
-    <!-- About -->
+    <!-- Elements Content -->
 
-    <div class="about prlx_parent">
-        <!-- https://unsplash.com/@nativemello -->
-        <div class="about_background prlx" style="background-image:url(img/acm_logo_1.png)"></div>
-        <div class="about_shapes"><img src="images/about_shapes.png" alt=""></div>
-
+    <div class="elements_content">
 
         <div class="container">
-            <div class="row">
-                <div class="col-lg-6 offset-lg-3 text-center section_title">
-                    <h2>Our Mission<span>A</span></h2>
+
+            <!-- About ACM -->
+
+            <div class="elements_section">
+                <div class="elements_title">
+                    <center>
+                    <h3>About ACM</h3>
+                    </center>
                 </div>
-            </div>
-            <div class="row">
-                <center>
+                <div class="row">
                     <div class="col-lg-6">
-                        <div class="about_text">
-                            <p>The Association for Computing Machinery is an international scientific and educational organization dedicated to advancing the art, science, engineering, and application of information technology. The ACM Student Chapter at Cal State LA is among the 430 operating student chapters dedicated to the ideals of the national ACM. Our goals are achieved by weekly general meetings, tutoring, member-led workshops, presentations from industry representatives and special events.</p>
+                        <div class="elements_progress_bars">
+
+                            <div class="about_text">
+                                <center>
+                                <p align="justify"><font color="black">The Association for Computing Machinery is an international scientific and educational organization dedicated to advancing the art, science, engineering, and application of information technology. The ACM Student Chapter at Cal State LA is among the 430 operating student chapters dedicated to the ideals of the national ACM. Our goals are achieved by weekly general meetings, tutoring, member-led workshops, presentations from industry representatives and special events.</font></p></center>
+                            </div>
+
                         </div>
                     </div>
-                </center>
-            </div>
-        </div>
-        <br>
-        <br>
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-6 offset-lg-3 text-center section_title">
-                    <h2>Our Purpose<span>A</span></h2>
+
+                    <div class="image">
+                    <div class="col-lg-6">
+                        <div class="elements_accordions">
+
+                            <img src="img/acm_logo.png" style="width: 150px; height: 150px">
+
+                            </div>
+
+                        </div>
+                    </div>
                 </div>
             </div>
-            <div class="row">
-                <center>
+            <!-- our mission-->
+            <div class="elements_section">
+                <div class="elements_title">
+                    <center>
+                        <h3>Our Mission</h3>
+                    </center>
+                </div>
+                <div class="row">
                     <div class="col-lg-6">
-                        <div class="about_text">
-                            <p>1.   To be organized and operated exclusively for educational and scientific purposes to promote the following:
+                        <div class="elements_progress_bars">
 
-                                ¨ An increased knowledge of and greater interest in the science, design, development, construction, languages, management and applications of modern computing.
+                            <div class="about_text">
+                                <center>
+                                    <p align="justify"><font color="black">1.   To be organized and operated exclusively for educational and scientific purposes to promote the following:
 
-                                ¨ Greater interest in computing and its applications.
+                                        ¨ An increased knowledge of and greater interest in the science, design, development, construction, languages, management and applications of modern computing.
 
-                                ¨ A means of communication between persons having an interest in computing.
+                                        ¨ Greater interest in computing and its applications.
 
-                                ¨ A collective effort among the computing machinery students in marketing their skills to the vast and high-paying computing job industry.<br>
+                                        ¨ A means of communication between persons having an interest in computing.
 
-                                2.    To serve students at Cal State L.A. and other interested persons in the Los Angeles community.<br>
+                                        ¨ A collective effort among the computing machinery students in marketing their skills to the vast and high-paying computing job industry.<br>
 
-                                3.    To be chartered by the ACM.
+                                        2.    To serve students at Cal State L.A. and other interested persons in the Los Angeles community.<br>
+
+                                        3.    To be chartered by the ACM.</font></p></center>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="image">
+                        <div class="col-lg-6">
+                            <div class="elements_accordions">
+
+                                <img src="img/acm_logo.png" style="width: 150px; height: 150px">
+
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- leaders-->
+            <!-- our mission-->
+            <div class="elements_section">
+                <div class="elements_title">
+                    <center>
+                        <h3>Our Leaders</h3>
+                    </center>
+                </div>
+                <div class="elements_title">
+                    <center>
+                        <h3>Board Members</h3>
+                    </center>
+                    <img src="leaders/Wilson_edit.png" style="width: 100px">
+                </div>
+
+            </div>
+
+            <!-- Footer -->
+
+            <footer class="footer">
+                <div class="container">
+                    <div class="row footer_content d-flex flex-sm-row flex-column align-items-center">
+                        <div class="col-sm-6 cr text-sm-left text-center">
+                            <p>
+                                Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | Made with <i class="fa fa-heart" aria-hidden="true"></i> by ACM
                             </p>
                         </div>
-                    </div>
-                </center>
-            </div>
-        </div>
-    </div>
-
-    <!-- Testimonials -->
-
-    <div class="testimonials">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-6 offset-lg-3 text-center section_title section_title_dark">
-                    <h2>Our Leaders<span>A</span></h2>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-lg-10 offset-lg-1">
-                    <div class="testimonials_container">
-                        <div class="testimonials_container_inner"></div>
-
-                        <!-- Testimonials Slider -->
-
-                        <div class="owl-carousel owl-theme testimonials_slider">
-
-                            <!-- President -->
-                            <div class="owl-item testimonials_item d-flex flex-column align-items-center justify-content-center text-center">
-                                <div class="testimonials_content">
-                                    <div class="test_user_pic"><img src="img/wilson_edit.jpg" style="height:100px" alt="https://unsplash.com/@michaeldam"></div>
-                                    <div class="test_name">Wilson Thomas</div>
-                                    <div class="test_quote">"</div>
-                                    <p>President</p>
-                                </div>
-                            </div>
-
-                            <!-- Vice President -->
-                            <div class="owl-item testimonials_item d-flex flex-column align-items-center justify-content-center text-center">
-                                <div class="testimonials_content">
-                                    <div class="test_user_pic"><img src="img/pranil_edit.jpg" style="height:100px" alt="https://unsplash.com/@michaeldam"></div>
-                                    <div class="test_name">Pranil Dahal</div>
-                                    <div class="test_quote">"</div>
-                                    <p>Vice President</p>
-                                </div>
-                            </div>
-
-                            <!-- Treasurer -->
-                            <div class="owl-item testimonials_item d-flex flex-column align-items-center justify-content-center text-center">
-                                <div class="testimonials_content">
-                                    <div class="test_user_pic"><img src="img/david1_edit.jpg" style="height:100px" alt="https://unsplash.com/@michaeldam"></div>
-                                    <div class="test_name">David San</div>
-                                    <div class="test_quote">"</div>
-                                    <p>Treasurer</p>
-                                </div>
-                            </div>
-                            <!-- Secretary -->
-                            <div class="owl-item testimonials_item d-flex flex-column align-items-center justify-content-center text-center">
-                                <div class="testimonials_content">
-                                    <div class="test_user_pic"><img src="img/dean1_edit.jpg" style="height:100px" alt="https://unsplash.com/@michaeldam"></div>
-                                    <div class="test_name">Dean San</div>
-                                    <div class="test_quote">"</div>
-                                    <p>Secretary</p>
-                                </div>
-                            </div>
-                            <!-- VP Internal Affairs -->
-                            <div class="owl-item testimonials_item d-flex flex-column align-items-center justify-content-center text-center">
-                                <div class="testimonials_content">
-                                    <div class="test_user_pic"><img src="img/gio_edit.jpg" style="height:100px" alt="https://unsplash.com/@michaeldam"></div>
-                                    <div class="test_name">Giovanni Garcia</div>
-                                    <div class="test_quote">"</div>
-                                    <p>VP Internal Affairs</p>
-                                </div>
-                            </div>
-                            <!-- Webmaster -->
-                            <div class="owl-item testimonials_item d-flex flex-column align-items-center justify-content-center text-center">
-                                <div class="testimonials_content">
-                                    <div class="test_user_pic"><img src="img/pavit_edit.jpg" style="height:100px" alt="https://unsplash.com/@michaeldam"></div>
-                                    <div class="test_name">Pavit Chawla</div>
-                                    <div class="test_quote">"</div>
-                                    <p>Webmaster</p>
-                                </div>
-                            </div>
-                            <!-- Project Manager -->
-                            <div class="owl-item testimonials_item d-flex flex-column align-items-center justify-content-center text-center">
-                                <div class="testimonials_content">
-                                    <div class="test_user_pic"><img src="img/brian_edit.jpg" style="height:100px" alt="https://unsplash.com/@michaeldam"></div>
-                                    <div class="test_name">Brian Hernandez</div>
-                                    <div class="test_quote">"</div>
-                                    <p>Project Manager</p>
-                                </div>
+                        <div class="col-sm-6 text-sm-right text-center">
+                            <div class="footer_social_container">
+                                <ul class="footer_social">
+                                    <li><a href="#"><i class="fab fa-facebook-f trans_300"></i></a></li>
+                                    <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                                </ul>
                             </div>
                         </div>
-
                     </div>
                 </div>
-
-                <!-- Testimonials Slider Navigation -->
-
-                <div class="test_slider_nav test_slider_nav_left d-flex flex-column justify-content-center align-items-center trans_200">
-                    <i class="fas fa-chevron-left trans_200"></i>
-                </div>
-
-                <div class="test_slider_nav test_slider_nav_right d-flex flex-column justify-content-center align-items-center trans_200">
-                    <i class="fas fa-chevron-right trans_200"></i>
-                </div>
-
-            </div>
+            </footer>
         </div>
     </div>
-
-    <!-- Footer -->
-
-    <footer class="footer">
-        <div class="container">
-            <div class="row footer_content d-flex flex-sm-row flex-column align-items-center">
-                <div class="col-sm-6 cr text-sm-left text-center">
-                    <p>
-                        Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | Made with <i class="fa fa-heart" aria-hidden="true"></i> by ACM
-                    </p>
-                </div>
-                <div class="col-sm-6 text-sm-right text-center">
-                    <div class="footer_social_container">
-                        <ul class="footer_social">
-                            <li><a href="#"><i class="fab fa-facebook-f trans_300"></i></a></li>
-                            <li><a href="#"><i class="fab fa-instagram"></i></a></li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </footer>
-
 </div>
-
-<script src="js/jquery-3.2.1.min.js"></script>
-<script src="styles/bootstrap4/popper.js"></script>
-<script src="styles/bootstrap4/bootstrap.min.js"></script>
-<script src="plugins/greensock/TweenMax.min.js"></script>
-<script src="plugins/greensock/TimelineMax.min.js"></script>
-<script src="plugins/scrollmagic/ScrollMagic.min.js"></script>
-<script src="plugins/greensock/animation.gsap.min.js"></script>
-<script src="plugins/greensock/ScrollToPlugin.min.js"></script>
-<script src="plugins/progressbar/progressbar.min.js"></script>
-<script src="plugins/OwlCarousel2-2.2.1/owl.carousel.js"></script>
-<script src="plugins/easing/easing.js"></script>
-<script src="js/custom.js"></script>
-<script src="js/dropdown.js"></script>
+        <script src="js/jquery-3.2.1.min.js"></script>
+        <script src="styles/bootstrap4/popper.js"></script>
+        <script src="styles/bootstrap4/bootstrap.min.js"></script>
+        <script src="plugins/greensock/TweenMax.min.js"></script>
+        <script src="plugins/greensock/TimelineMax.min.js"></script>
+        <script src="plugins/scrollmagic/ScrollMagic.min.js"></script>
+        <script src="plugins/greensock/animation.gsap.min.js"></script>
+        <script src="plugins/greensock/ScrollToPlugin.min.js"></script>
+        <script src="plugins/progressbar/progressbar.min.js"></script>
+        <script src="plugins/OwlCarousel2-2.2.1/owl.carousel.js"></script>
+        <script src="plugins/easing/easing.js"></script>
+        <script src="js/custom.js"></script>
+        <script src="js/dropdown.js"></script>
 
 </body>
 
 </html>
-<script>
-// Get the modal
-var modal = document.getElementById('id01');
-// When the user clicks anywhere outside of the modal, close it
-window.onclick = function(event) {
-    if (event.target == modal) {
-        modal.style.display = "none";
-    }
-}
-</script>
