@@ -16,6 +16,27 @@
     <link rel="stylesheet" type="text/css" href="styles/elements_styles.css">
     <link rel="stylesheet" type="text/css" href="styles/elements_responsive.css">
 </head>
+<style>
+* {
+    box-sizing: border-box;
+}
+
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+img {
+  border-radius: 50%;
+}
+</style>
 <body>
 
 <div class="super_container">
@@ -205,7 +226,17 @@
                     <center>
                         <h3>Board Members</h3>
                     </center>
-                    <img src="leaders/Wilson_edit.png" style="width: 100px">
+                </div>
+                <div class="row">
+                    <div class="column">
+                        <img src="Leaders/wilson_1.png" alt="Acm president" style="width:75%">
+                    </div>
+                    <div class="column">
+                        <img src="Leaders/pranil_1.png" alt="Acm president" style="width:75%">
+                    </div>
+                    <div class="column">
+                        <img src="Leaders/david1_2.png" alt="Acm president" style="width:75%">
+                    </div>
                 </div>
 
             </div>
