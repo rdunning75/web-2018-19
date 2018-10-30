@@ -8,9 +8,16 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" type="text/css" href="styles/bootstrap4/bootstrap.min.css">
 <link href="plugins/fontawesome-free-5.0.1/css/fontawesome-all.css" rel="stylesheet" type="text/css">
+<link rel="stylesheet" type="text/css" href="plugins/OwlCarousel2-2.2.1/owl.carousel.css">
+<link rel="stylesheet" type="text/css" href="plugins/OwlCarousel2-2.2.1/owl.theme.default.css">
+<link rel="stylesheet" type="text/css" href="plugins/OwlCarousel2-2.2.1/animate.css">
+<link rel="stylesheet" type="text/css" href="styles/main_styles.css">
 <link rel="stylesheet" type="text/css" href="styles/navbar.css">
-<link rel="stylesheet" type="text/css" href="styles/membership_styles.css">
-<link rel="stylesheet" type="text/css" href="styles/membership_responsive.css">
+<link rel="stylesheet" type="text/css" href="styles/responsive.css">
+
+<link rel="stylesheet" href="css/styleSheet.css">
+
+
 </head>
 
 <body>
@@ -21,7 +28,7 @@
 
 	<header class="header d-flex flex-row justify-content-end align-items-center">
 
-		<!-- Logo -->
+			<!-- Logo -->
 		<div class="logo_container mr-auto">
 			<div class="logo">
 				<img alt="acm" src="img/logos/Official ACM Logo (White).png" height=60px width=60px>
@@ -35,7 +42,7 @@
 		</div>
 
 
-		<!-- Main Navigation -->
+			<!-- Main Navigation -->
 
 
 
@@ -43,8 +50,7 @@
 			<ul class="nav_items">
 				<li><a href="index.html"><span>home</span></a></li>
 				<li class="active"><a href="membership.html"><span>membership</span></a></li>
-				<li><a href="elements.html"><span>elements</span></a></li>
-				<li><a href="blog.html"><span>blog</span></a></li>
+				<li><a href="calendar.html"><span>calendar</span></a></li>
 				<li><a href="contact.html"><span>contact</span></a></li>
 			</ul>
 		</nav>
@@ -55,6 +61,7 @@
 		</div>
 
 	</header>
+
 
 	<!-- Menu -->
 
@@ -77,22 +84,7 @@
 		</div>
 	</div>
 
-	<!-- Page Top -->
 
-	<div class="home prlx_parent">
-
-		<!-- Parallax Background -->
-		<!-- <div class="page_top_background parallax-window" data-parallax="scroll" data-speed="0.7" data-image-src="images/services_parallax.jpg"></div> -->
-		<div class="home_background prlx" style="background-image:url(img/acm_members.jpg)"></div>
-		<div class="services_page_shapes" style="background-image:url(images/services_page_shapes.png)"></div>
-
-		<div class="container">
-			<table>
-				<tr><td>Hello</td><td></td></tr>
-			</table>
-		</div>
-
-	</div>
 
 	<!-- Home Social -->
 	<div class="home_social_container d-flex flex-row justify-content-end align-items-center">
@@ -103,182 +95,144 @@
 	</div>
 
 	<!-- Services -->
-
+<br><br>
 	<div class="services">
-		<!-- <div class="col-lg-4 service_item text-center d-flex flex-column align-items-center justify-content-center"> -->
-			
-		<!-- </div> -->
 
 		<div class="container">
-			<div class="row">
-				<div class="col-xs">
-			        <h1 class="text-center meeting-info-title">
-			        	Membership<br>
-			        	<span style="color: red;">No more space in projects!! | No project = No extra credit</span>
-			        </h1>
-		        	<div class="hr margin-top-30"></div>
-		    	</div>
+			<div class="col-lg-6 offset-lg-3 text-center section_title section_title_dark">
+				<h2 style="color: black;">why should I Join<span>?</span></h2>
 			</div>
-			<div class="row">
-				<div>
-					<h2>Membership Is Important! </h2>
-				</div>
-            	<div class="hr margin-bottom-15"></div>
+			<table>
+				<tr>
+					<td style="padding-right: 100px"><h3><b>Your chance to acquire real-life experience <i>outside of the class</i>...</b></h3><br/>
+					<p style="text-align: justify">Classes aren't enough to give your practical experience once you hit the work-force. California State Los Angeles's very own chapter of the Association for Computing Machinery takes care of its members in more ways then one. We do our best to keep you updated on special events as well as ongoing club activities. Here are a few key benefits that you could take advantage of by becoming a member of ACM today.</p></td><td><img style="border-radius: 50%; width: 350px" src="images/groupImage1.png"></td>
+				</tr>
+			</table>
+			<div class="club_incentives" style="background-image: url('images/Pizza_Fundraiser.jpg'); background-size: cover; background-repeat: no-repeat; margin-top: 25px; margin-bottom: 25px; margin-left: -15vh; margin-right: -15vh">
+			<div class="incentives_content" style="background: rgba(0, 0, 0, 0.6); width: 100vh; color: white; padding: 100px">
+				<h3 style="color: white"><b>Club Incentives</b></h3>
+					<ul class="fs_menu_list" style="display: inline-block; text-align: left;">
+						<li>❖ Develop skills with Project experience through Intensive Workshops</li>
+						<li>❖ Internship & Scholarship Opportunities</li>
+						<li>❖ Opportunities to get Involved & to be a Leader</li>
+						<li>❖ ACM Mentorship Program (Spring 2018/2019)</li>
+						<li>❖ Resume/Internship workshops</li>
+						<li>❖ Tutoring for CS classes</li>
+						<li>❖ Conference Opportunities/Tech companies' tours</li></li>
+						<li>❖ Networking Opportunities</li>
+						<li>❖ Volunteer Opportunities </li>
+						<li>❖ Loyalty Card Program (Spring 2018/2019)</li>
+					</ul>
+					<br/>
+					Please make sure to check the <b><a href="calendar.html">calendar</a></b> to ensure no deadlines are missed.
+			</div></div>
+			<br/>
+			<br/>
+			<div class="col-lg-6 offset-lg-3 text-center section_title section_title_dark">
+				<h2 style="color: black;">how do I join<span>?</span></h2>
 			</div>
-			<div class="row">
-				<div class="card" style="width: 100%;">
-					<div>
-						<p style="padding-top: 10px">
-							Cal State LA's very own chapter of the Association for Computing Machinery takes
-		                    care of its members in more ways then one!
-		                    We do our best to keep you updated on special events as well as ongoing club activities. Here are a
-		                    few key benefits that you could take advantage of
-		                    by becoming a member of ACM today!
-	                	</p>
-					</div>
-	                <div>
-	                    <h3>BENEFITS OF ACM: </h3>
-	                    <ul>
-	                        <li><b>Develop skills</b> with Project experience through workshops <br><span
-	                                style="color: red;" class="indent"> [No more space left in workshops! Sorry.]</span>
-	                        </li>
-	                        <li><b>Internship & Scholarship Opportunities </b></li>
-	                        <li><b>Leadership Opportunities </b></li>
-	                        <li><b>Opportunity to receive ACM Scholarship Spring 2019 </b></li>
-	                        <li>ACM Mentorship Program <span style="color: red;"> <b>(Deadline passed)</b> </span></li>
-	                        <li><b>Resume/Internship workshops </b></li>
-	                        <li>
-	                            <a href="http://acm.calstatela.edu/pages/tutoring.html">
-	                                <b>Tutoring for CS classes.</b>
-	                            </a>
-	                        </li>
-	                        <li><b>Conference opportunities/Tech companies' tours </b></li>
-	                        <li><b>Networking</b>: Meet with other fellow CS Cal State LA students.</li>
-	                        <li><b>Volunteer Opportunities </b>(Letter reflecting volunteer hours will be provided if
-	                            requested)
-	                        </li>
-	                        <li><b><a href="loyalty_card.html" target="_blank">Loyalty Card Program (Deadline
-	                            passed)<br>
-	                        </a></b>
-	                        </li>
-	                    </ul>
-	                </div>
-	                <div>
-		                <p class="pl-4 pr-3 pb-3">
-		                    Please note that some of these benefits are only available on a first come first serve basis.
-		                    So make sure to sign up as soon as possible! Remember, if you missed this years deadlines, there is
-		                    always next year!
-		                </p>
-	                </div>s
-	            </div>
-	        </div>
-	        <div class="row">
-        		<div class="col-xs">
-	        		<h2>How do I Become A Member?</h2>
-            		<div class="hr margin-bottom-15"></div>
-	        	</div>	
-		    </div>
-		    <div class="row">
-		    	<div class="card" style="width: 100%">
-		            <div>
-		                <div>
-		                    <p> Excellent question! First thing to do is to decide what membership you would like to purchase.</p>
+			<h3><b>How do I get <i>involved</i>?</b></h3><br/>
+			<p style="text-align: justify">The club holds many events throughout the semester. However, one of most important experiences is being involved with the workshops. To get the most benefits off being a member of the club - make sure to meet deadlines. Be aware that workshop space is very limited, so don't miss the first meeting of each semester (check the calendar for more details). There are two types of annual memberships...</p>
+			<table><tr>
+				<td style="padding: 20px;"><h3><b>Basic</b></h3>
+					<ul>
+						<li>❖ $5 annual fee. Pay once, lasts two semesters.</li>
+						<li>❖ Opportunity to join hands-on work shops - get access to all equipment.</li>
+						<li>❖ Complementary pizza <i>ever</i> meeting.</li>
+						<li>❖ Access to all presentations with speakers from companies like <i>google, NASA, LA County, and more.</i></li>
+						<li>❖ Tutoring/Mentoring/Extra credit opportunities.</li>
 
-		                    <h3>WE OFFER TWO KINDS OF ANNUAL MEMBERSHIPS:</h3>
-		                    <div class="d-flex flex-row">
-		                        <div class="d-flex flex-column mr-auto">
-		                            <p class="titles">$5 Annual Membership:</p>
-		                            <ul>
-		                                <li>You get membership to the club and all the benefits listed above!</li>
-		                            </ul>
-		                        </div>
-		                        <div class="d-flex flex-column col-6 box-buffer">
-		                            <p class="titles">$10 Annual Membership:</p>
-		                            <ul>
-		                                <li>You get the same benefits of a $5 membership</li>
-		                                <li>You receive a <b> Metal ACM card:</b></li>
-		                                <img src="img/membership_card.png" alt="Membership Card"
-		                                     width="300" height="100">
-		                                <li>And you receive an <b>ACM Graphic T-shirt:</b></li>
-		                                <img src="img/ACM_shirt.png" alt="ACM shirt" width="250" height="250 " ;>
-		                            </ul>
-		                        </div>
-		                    </div>
-		                    <p>Next, you follow these two steps! Its that simple!</p>
-		                    <div class="card d-flex flex-row">
-		                        <div class="d-flex flex-column mr-auto">
-		                            <h4><p class="titles"><u>Step 1</u>: Pay for membership</p>
-		                                <div>
-		                                	<div class="row">
-		                                		<a class="col" href="google_pay.html">
-			                                    	<img alt="GooglePay" src="img/google1.png" width=60px" height="60px">
-			                                    </a>
-			                                    <a class="col" href="venmo.html">
-			                                    	<img alt="Venmo" src="img/venmo.png" width="60px" height="60px">
-			                                    </a>
-		                                	</div>
-		                                	<br>
-		                                	<div class="row">
-			                                    <a class="col" href="paypal.html">
-			                                    	<img alt="Paypal" src="img/paypal.jpg" width="60px" height="60px">
-			                                    	<h5 style="color: red"><b> PLEASE "Pay as a friend" if you're using PayPal </b></h5>
-			                                    </a>
-			                                </div>
-		                                </div>
-		                            </h4>
-		                        </div>
-
-		                        <div class="d-flex flex-column col-6 " id="step-2">
-		                            <h4><p class="titles"><u>Step 2</u>: Complete Application:</p> <span class="indent"> [Note: Upload invoice from Step 1]</span>
-		                            </h4>
-
-		                            <div class="d-flex flex-row">
-		                                <div>
-		                                    <a href="https://docs.google.com/forms/u/1/d/1mVgIwUTGt0YKCCtGA6BvOiQzMyMgR-dkt8ZvNL4CY14/edit?usp=drive_web">
-		                                   		<button class="btn-default" style="padding: 6px">Membership Application</button>
-		                                    </a>
-		                                    <a class="navbar-brand" href="https://discord.gg/wX58JRv" target="_blank">
-		                                        <button class="btn-default">
-		                                            <img class="responsive-pic" alt="discord" src="img/discord.png"
-		                                                 width=120px height=40px></button>
-		                                    </a>
-		                                </div>
-		                            </div>
-		                        </div>
-		                    </div>
-		                </div>
-		            </div>
-	        	</div>
-	        </div>
-		</div>
-	</div>
-
-	<!-- Cards -->
-
-	<!-- Contact -->
-
-	<div class="contact prlx_parent">
-		<!-- <div class="contact_background" style="background-image: url(images/contact_background.jpg);"></div> -->
-		<div class="contact_background prlx" style="background-image:url(images/contact_background.jpg)"></div>
-		<div class="contact_shapes"><img src="images/contact_shape.png" alt=""></div>
+					</ul>
+				</td>
+				<td style="padding: 20px;"><h3><b>Premium</b></h3>
+					<ul>
+					<li>❖ Develop skills with Project experience through Intensive Workshops</li>
+						<li>❖ $10 annual fee. Pay once, lasts two semesters.</li>
+						<li>❖ Get all the benefits of the basic pack, with added bonuses.</li>
+						<li>❖ ACM Membership Card/ID & ACM Shirt</li>
+						<li>❖ Free <i>food</i> to whatever we're fundraising (ACM Membership Card required).</li>
+					</ul>
+				</td>
+			</tr>
+			</table>
+			<!--Membership steps -->
+<div class="testimonials">
 		<div class="container">
-
 			<div class="row">
-				<div class="col-lg-6 offset-lg-3 text-center section_title contact_title">
-					<h2>let's work together<span>z</span></h2>
+				<div class="col-lg-6 offset-lg-3 text-center section_title section_title_dark">
+					<h2>How do I sign up?<span>?</span></h2>
 				</div>
 			</div>
-
 			<div class="row">
-				<div class="col-lg-10 offset-lg-1 text-center contact_text">
-					<p>Dolor sit amet, consectetur adipiscing elit. Phasellus vestibulum, quam tincidunt venen atis. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus vestibulum, quam tincidunt venenatis ultrices, est libero mattis ante, ac consectetur diam neque eget quam.</p>
-					<div class="button contact_button">
-						<a href="contact.html" class="d-flex flex-row align-items-center justify-content-center">contact<img src="images/arrow_right.svg" alt=""></a>
+				<div class="col-lg-10 offset-lg-1">
+					<div class="testimonials_container">
+						<div class="testimonials_container_inner"></div>
+
+						<!-- Testimonials Slider -->
+
+						<div class="owl-carousel owl-theme testimonials_slider">
+
+							<!-- Testimonials Item -->
+							<div class="owl-item testimonials_item d-flex flex-column align-items-center justify-content-center text-center">
+								<div class="testimonials_content" style="padding: 50px;">
+									<div class="test_name"><b>Step 1</b></div>
+									<div class="test_title">Pay for your Membership</div>
+									<p>This can be done through <i>Google Pay, Venmo, or Paypal.<br/>(If you decide to use paypal, <b>please send money as a friend</b>)</i></p>
+									<br/>
+										<img style="display: inline-block; height: 50px" src="images/google1.png">
+										<img style="display: inline-block; height: 50px" src="images/paypal.jpg">
+										<img style="display: inline-block; height: 50px" src="images/venmo.png">
+									</br><br/><i>Send all payments to <b>ACM.Calstatela@gmail.com</b>
+										<br/>Or, pay in person.</i>
+								</div>
+							</div>
+
+							<!-- Testimonials Item -->
+							<div class="owl-item testimonials_item d-flex flex-column align-items-center justify-content-center text-center">
+								<div class="testimonials_content">
+
+									<div class="test_name" style="padding-top: -10px;"><b>Step 2</b></div>
+									<div class="test_title">Complete the Application</div>
+									<p>Upload an invoice from Step 1 onto the Membership Application.</br>
+									Complete application <b><a href="https://docs.google.com/forms/d/1mVgIwUTGt0YKCCtGA6BvOiQzMyMgR-dkt8ZvNL4CY14/viewform?edit_requested=true">here</a></b> and join our discord <b><a href="https://discordapp.com/invite/wX58JRv">here</a>
+										<br>
+										<br>
+										<br>
+										<br></b></p>
+								</div>
+							</div>
+
+							<!-- Testimonials Item -->
+							<div class="owl-item testimonials_item d-flex flex-column align-items-center justify-content-center text-center">
+								<div class="testimonials_content">
+
+									<div class="row">
+										<div class="col-lg-6 offset-lg-3 text-center section_title section_title_dark">
+											<h2>Congrats! You're in!<span>★</span></h2>
+										</div>
+									</div>
+								</div>
+							</div>
+
+						</div>
+
 					</div>
 				</div>
+
+				<!-- Testimonials Slider Navigation -->
+
+				<div class="test_slider_nav test_slider_nav_left d-flex flex-column justify-content-center align-items-center trans_200">
+					<i class="fas fa-chevron-left trans_200"></i>
+				</div>
+
+				<div class="test_slider_nav test_slider_nav_right d-flex flex-column justify-content-center align-items-center trans_200">
+					<i class="fas fa-chevron-right trans_200"></i>
+				</div>
+
 			</div>
 		</div>
 	</div>
+<br/>
 
 	<!-- Footer -->
 
@@ -312,11 +266,13 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 <script src="plugins/scrollmagic/ScrollMagic.min.js"></script>
 <script src="plugins/greensock/animation.gsap.min.js"></script>
 <script src="plugins/greensock/ScrollToPlugin.min.js"></script>
-<script src="plugins/parallax.js-1.5.0/parallax.min.js"></script>
 <script src="plugins/progressbar/progressbar.min.js"></script>
 <script src="plugins/OwlCarousel2-2.2.1/owl.carousel.js"></script>
 <script src="plugins/easing/easing.js"></script>
-<script src="js/services_custom.js"></script>
+<script src="js/custom.js"></script>
+<script src="js/dropdown.js"></script>
+
+
 </body>
 
 </html>
