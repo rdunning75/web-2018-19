@@ -33,7 +33,12 @@
     {
         display: block;
     }
-	
+
+
+
+
+
+
 }
 
 /************
@@ -79,12 +84,7 @@
 3. 1380px
 ************/
 
-@media only screen and (max-width: 1380px)
-{
-
-
-
-
+@media only screen and (max-width: 1380px) {
 
 }
 
@@ -215,6 +215,21 @@
 		margin-left: 0px;
 		margin-right: 0px;
 	}
+
+    .zeta_card_content
+    {
+        max-width: 720px;
+        margin: 0 auto;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .zeta_card
+    {
+        padding-top: 120px;
+        padding-bottom: 110px;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
 }
 
 /************
@@ -232,16 +247,40 @@
 
 @media only screen and (max-width: 880px)
 {
-	
+
 }
 
 /************
 9. 768px
 ************/
 
-@media only screen and (max-width: 768px)
+@media only screen and (max-width: 770px)
 {
+
+    .hidden-on-phone .testimonials_content {
+        display: none;
+    }
+
+    .testimonials_item_double {
+        padding-bottom: 250px;
+    }
 	
+}
+
+@media  only screen and  (min-width: 770px){
+    .hidden-on-tablet .testimonials_content{
+        display: none;
+    }
+
+    .test_name {
+       width: 50px;
+
+    }
+
+
+
+
+
 }
 
 /************
@@ -264,8 +303,8 @@
 	}
 	.testimonials_content
 	{
-		padding-left: 15px;
-		padding-right: 15px;
+		padding-left: 25px;
+		padding-right: 25px;
 	}
 	.footer_social li
 	{
@@ -330,15 +369,19 @@
 		font-size: 13px;
 		margin-bottom: 15px;
 	}
+
 }
 
 /************
 11. 539px
 ************/
 
-@media only screen and (max-width: 539px)
+@media only screen and (max-width: 525px)
+
 {
-	
+
+
+
 }
 
 /************
@@ -428,7 +471,7 @@
 	}
 	.slider_content_col
 	{
-		height: calc(100vh - 90px);
+		/*height: calc(100vh - 90px);*/
 	}
 	.features
 	{
@@ -501,7 +544,13 @@
 14. 400px
 ************/
 
-@media only screen and (max-width: 400px)
-{
-	
+@media only screen and (max-width: 400px) {
+
+
 }
+
+
+
+
+
+	
