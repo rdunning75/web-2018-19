@@ -1349,19 +1349,31 @@ section {
     right: 0;
 }
 
-.service_item {
+.service_item , .service_item_white{
     margin-bottom: 30px;
 }
 
-.service_item h3 {
-    color: black;
+.service_item_white h3 {
+    color: white;
     text-transform: uppercase;
     letter-spacing: 0.2em;
     margin-bottom: 31px;
 }
 
-.service_item p {
-    color: black;
+.service_item_white p {
+    color: white;
+    max-width: 100%;
+}
+
+.service_item_white h3 {
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+    margin-bottom: 31px;
+}
+
+.service_item_white p {
+    color: white;
     max-width: 100%;
 }
 
