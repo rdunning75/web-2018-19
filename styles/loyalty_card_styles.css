@@ -830,6 +830,14 @@ section
 	margin-left: 30px;
 	margin-right: 30px;
 }
+.card_big {
+	height: auto;
+	width: 95%;
+	box-shadow: 5px 5px 5px 5px #D3D3D3;
+	border-radius: 16px;
+	margin-left: 30px;
+	margin-right: 30px;
+}
 .card_content {
 	padding: 20px;
 }
