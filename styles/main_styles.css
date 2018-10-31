@@ -1326,9 +1326,9 @@ section {
 
 .services {
     padding-top: 152px;
-    padding-bottom: 120px;
+    padding-bottom: 20px;
     z-index: 1;
-    margin-top: -32px;
+    margin-top: -75px;
 }
 
 .services_background {
@@ -1354,14 +1354,14 @@ section {
 }
 
 .service_item h3 {
-    color: #FFFFFF;
+    color: black;
     text-transform: uppercase;
     letter-spacing: 0.2em;
     margin-bottom: 31px;
 }
 
 .service_item p {
-    color: #FFFFFF;
+    color: black;
     max-width: 100%;
 }
 
