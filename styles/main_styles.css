@@ -1184,8 +1184,32 @@ section {
 
 }
 
+
 .testimonials_content p {
     width: 100%;
+}
+
+.testimonials_content_membership {
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 40px;
+    padding-top: 100px;
+    max-width: 100%;
+    width: 800px;
+    height: 500px;
+}
+
+.testimonials_content_membership p {
+    width: 100%;
+}
+
+.test_name_membership{
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: 0.2em;
+    color: #1c1c1c;
+    text-transform: uppercase;
+
 }
 
 .brian {
