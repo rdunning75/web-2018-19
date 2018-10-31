@@ -236,9 +236,20 @@
 7. 959px
 ************/
 
-@media only screen and (max-width: 959px)
+@media only screen and (max-width: 990px)
+
 {
-	
+    .hide-on-half{
+        display: none;
+    }
+
+}
+
+@media only screen and (min-width: 990px){
+
+    .hide-on-full{
+        display: none;
+    }
 }
 
 /************
@@ -276,6 +287,7 @@
        width: 50px;
 
     }
+
 
 
 
