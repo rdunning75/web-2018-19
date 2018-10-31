@@ -45,6 +45,10 @@ COLOR PALETTE
     src: url('../fonts/myriad-pro-regular.ttf') format('truetype'),
     url('../fonts/myriad-pro-regular.otf') format('opentype');
 }
+@font-face {
+	font-family: 'Orbitron';
+	src: url('https://fonts.googleapis.com/css?family=Orbitron');
+}
 
 /*********************************
 2. Body and some general stuff
@@ -340,6 +344,7 @@ section {
 }
 
 /*********************************
+<<<<<<< HEAD
 3. Header
 *********************************/
 
@@ -719,6 +724,8 @@ section {
 }
 
 /*********************************
+=======
+>>>>>>> 8cf6b359caa572aa64d434596d35ef14ea1784e0
 4. Main Slider
 *********************************/
 
