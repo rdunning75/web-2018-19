@@ -357,7 +357,10 @@ section
 /*********************************
 3.2 Main Navigation
 *********************************/
-
+/* maybe considering changing this */
+/*.dropdown-toggle::after {
+    display:none;
+}*/
 .main_nav
 {
 	/*margin-right: -3px;*/
@@ -372,7 +375,8 @@ section
 .nav_items li
 {
 	display: inline-block;
-	margin-left: 2rem;
+	/*margin-left: 1rem;
+	margin-right: 1rem;*/
 	height: 100%;
 }
 .nav_items li a
@@ -388,32 +392,41 @@ section
 	display: -ms-flexbox;
 	display: -webkit-flex;
 	display: flex;
-	flex-direction: column;
+	/*flex-direction: column;*/
 	justify-content: center;
 	align-items: center;
-	padding-left: 14px;
+	padding-left: 10px;
 	padding-right: 10px;
 }
-.nav_items li.active
+/*.nav_items li.active
 {
 	background: #FFD400;
-}
-.nav_items li.active a
+}*/
+.nav_items li a:hover
 {
-	color: #FFFFFF;
+	color: #FFD400;
 }
-.nav_items li:hover
-{
-	background: #FFD400;
-}
-.nav_items li:hover a
-{
-	color: #FFFFFF;
-}
-
 .dropdown-menu {
-	background: #000000;
+	background: #111111;
 }
+.dropdown-menu li {
+	width: 16rem;
+	display: inline-block;
+	justify-content: center;
+	align-content: center;
+}
+.dropdown-menu li a:hover {
+
+	color: #FFD400;
+}
+/* is not working properly */
+/*.dropdown:hover .dropdown-menu {
+	width: 16rem;
+	display: inline-block;
+	justify-content: center;
+	align-content: center;
+	transform: translate(-100px,0);
+}*/
 
 /*********************************
 3.3 Hamburger Menu
