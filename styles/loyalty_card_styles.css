@@ -341,7 +341,7 @@ section
 .logo a
 {
 	font-family: 'Montserrat', sans-serif;
-	font-size: 30px;
+	font-size: 24px;
 	font-weight: 700;
 	color: #FFFFFF;
 	text-transform: uppercase;
@@ -583,7 +583,7 @@ section
 	display: inline-block;
 	/*font-family: 'Orbitron';*/
 	/*font-style: italic;*/
-	font-size: 50px;
+	font-size: 36px;
 	font-weight: 700;
 	color: #FFFFFF;
 	line-height: 1.4;
@@ -611,9 +611,9 @@ section
 }
 .fs_social_container
 {
-	position: absolute;
+	/*position: absolute;*/
 	bottom: 0px;
-	right: 63px;
+	/*right: 63px;*/
 	width: auto;
 	height: 74px;
 	z-index: 11;
