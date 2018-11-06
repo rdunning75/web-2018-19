@@ -802,8 +802,10 @@ section {
     left: 0;
     bottom: 0;
     height: 74px;
-    width: 100%;
-    z-index: 11;
+
+    background: rgba(0,0,0,.4);
+    margin-left: 10%;
+    z-index: 1;
 }
 
 .main_slider_custom_dots li {
@@ -1379,17 +1381,6 @@ section {
     margin-bottom: 30px;
 }
 
-.service_item_white h3 {
-    color: white;
-    text-transform: uppercase;
-    letter-spacing: 0.2em;
-    margin-bottom: 31px;
-}
-
-.service_item_white p {
-    color: white;
-    max-width: 100%;
-}
 
 .service_item_white h3 {
     color: white;
@@ -1640,5 +1631,19 @@ section {
     min-width: 500px;
     background-position:  center;
 }
+
+/*********************************
+10. Calander
+*********************************/
+
+.body {
+
+    height: 975px;
+    padding-top: 90px;
+    margin-bottom: 10%;
+
+}
+
+
 
 
