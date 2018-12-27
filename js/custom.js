@@ -29,6 +29,7 @@ $(document).ready(function()
 	var ctrl = new ScrollMagic.Controller();
 	var controller = new ScrollMagic.Controller();
 	var header = $('.header');
+	var img = $('.logo_img');
 	var menuActive = false;
 	var hamb = $('.hamburger_container');
 	var menu = $('.fs_menu_container');
@@ -53,8 +54,7 @@ $(document).ready(function()
 	initClientsSlider();
 	initParallax();
 
-	/* 
-
+	/*
 	2. Set Header
 
 	*/
@@ -66,10 +66,13 @@ $(document).ready(function()
 			if($(window).scrollTop() > 100)
 			{
 				header.css({'height':"80"});
+				img.css({'height':"70", 'width':"70"});
+
 			}
 			else
 			{
 				header.css({'height':"110"});
+                img.css({'height':"90", 'width':"90"});
 			}
 		}
 		else
@@ -77,10 +80,13 @@ $(document).ready(function()
 			if($(window).scrollTop() > 100)
 			{
 				header.css({'height':"80"});
+                img.css({'height':"70", 'width':"70"});
+
 			}
 			else
 			{
 				header.css({'height':"110"});
+                img.css({'height':"90", 'width':"90"});
 			}
 		}
 		if(window.innerWidth > 991 && menuActive)

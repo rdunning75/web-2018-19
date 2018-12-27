@@ -24,15 +24,7 @@
 
 @media only screen and (max-width: 1600px)
 {
-    .main_nav
-    {
-        display: none;
-    }
 
-    .hamburger_container
-    {
-        display: block;
-    }
 
 
 
@@ -86,6 +78,10 @@
 
 @media only screen and (max-width: 1380px) {
 
+
+
+
+
 }
 
 /************
@@ -103,6 +99,17 @@
 	{
 		right: 5%;
 	}
+
+    .main_nav
+    {
+        display: none;
+    }
+
+
+    .hamburger_container
+    {
+        display: block;
+    }
 
 
 }
@@ -402,6 +409,11 @@
 
     .contact_div {
         padding-top: 250px;
+    }
+
+    .hamburger_container{
+        display: block;
+        max-width: 30%;
     }
 
 
