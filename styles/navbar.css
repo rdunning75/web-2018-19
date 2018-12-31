@@ -8,7 +8,7 @@
 	top: 0;
 	left: 0;
 	width: 100%;
-	height: 110px;
+	height: 150px;
 	padding-left: 2rem;
 	padding-right: 2rem;
 	z-index: 20;
@@ -46,6 +46,7 @@
 	top: 0;
 	color: #FFFFFF;
 	z-index: -1;
+
 }
 
 /*********************************
