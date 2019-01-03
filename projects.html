@@ -16,7 +16,20 @@
 <link rel="stylesheet" type="text/css" href="styles/elements_styles.css">
 <link rel="stylesheet" type="text/css" href="styles/elements_responsive.css">
 </head>
+<style>
+    .cardstyle{
+        border-radius:10px;
+        box-shadow: 5px 5px 5px 5px rgba(0.2,0.2,0.2,0.2);
+    }
 
+    .cardtext{
+        margin-top:5px;
+        margin-bottom:5px;
+        margin-right:5px;
+        margin-left:5px;
+    }
+
+</style>
 <body>
 
 <div class="super_container">
@@ -119,10 +132,11 @@
 		<div class="container">
 
 					<!-- Progress Bars & Accordions -->
-
+            <center><h2>PROJECT #1</h2></center>
 					<div class="elements_section">
-						<div class="elements_title">
-							<h3>Website mock-up design</h3>
+                        <div class="card cardstyle">
+						<div class="elements_title cardtext">
+                            <h3>Website mock-up</h3>
 						</div>
 						<div class="row">
 							<div class="col-lg-6">
@@ -130,15 +144,15 @@
 
 									<div class="pbar_container">
 										<ul class="progress_bar_container col_12 clearfix">
-											<li class="pb_item">
+											<li class="pb_item cardtext">
 												<div id="skill_1_pbar" class="skill_bars" data-perc=".99"></div>
 												<h5>Brainstorming</h5>
 											</li>
-											<li class="pb_item">
+											<li class="pb_item cardtext">
 												<div id="skill_2_pbar" class="skill_bars" data-perc="0.95"></div>
 												<h5>Design</h5>
 											</li>
-											<li class="pb_item">
+											<li class="pb_item cardtext">
 												<div id="skill_3_pbar" class="skill_bars" data-perc="0.9"></div>
 												<h5>Developing</h5>
 											</li>
@@ -151,7 +165,7 @@
 							<div class="col-lg-6">
 								<div class="elements_accordions">
 
-									<div class="accordion_container">
+									<div class="accordion_container cardtext">
 
 										<div class="accordion d-flex flex-row align-items-center">About the project</div>
 										<div class="accordion_panel">
@@ -160,7 +174,7 @@
 
 									</div>
 
-									<div class="accordion_container">
+									<div class="accordion_container cardtext">
 
 										<div class="accordion d-flex flex-row align-items-center">Who is this meant for?</div>
 										<div class="accordion_panel">
@@ -173,8 +187,12 @@
 
 								</div>
 							</div>
+                        </div>
 						</div>
 			<div class="elements_section">
+                <center><h2>PROJECT #2</h2></center>
+                <div class="card cardstyle">
+                    <div class="elements_title cardtext">
 				<div class="elements_title">
 					<h3>ACM Android Mobile App</h3>
 				</div>
@@ -227,9 +245,11 @@
 
 					</div>
 				</div>
+                    </div>
+                </div>
 			</div>
 					</div>
-
+<br>
 	<!-- Footer -->
 
 	<footer class="footer">

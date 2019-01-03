@@ -17,25 +17,23 @@
     <link rel="stylesheet" type="text/css" href="styles/elements_responsive.css">
 </head>
 <style>
-* {
-    box-sizing: border-box;
-}
+.cardstyle{
+        border-radius:10px;
+        max-width:1200px;
+        box-shadow: 5px 5px 5px 5px rgba(0.2,0.2,0.2,0.2);
+    }
 
-.column {
-    float: left;
-    width: 33.33%;
-    padding: 5px;
-}
+    .cardtext{
+        margin-top:5px;
+        margin-bottom:5px;
+        margin-right:5px;
+        margin-left:5px;
+    }
 
-/* Clearfix (clear floats) */
-.row::after {
-    content: "";
-    clear: both;
-    display: table;
-}
-img {
-  border-radius: 50%;
-}
+    .textstyle{
+        text-align: center;
+        margin:10px;
+    }
 </style>
 <body>
 
@@ -142,105 +140,152 @@ img {
             <!-- About ACM -->
 
             <div class="elements_section">
-                <div class="elements_title">
-                    <center>
+                <div class="card cardstyle cardtext textstyle">
+                    <br>
+                    <center><img src="img/acm_logo.png" style="width: 150px; height: 150px"></center>
+                    <br>
                     <h3>About ACM</h3>
-                    </center>
-                </div>
-                <div class="row">
-                    <div class="col-lg-6">
-                        <div class="elements_progress_bars">
-
-                            <div class="about_text">
-                                <center>
-                                <p align="justify"><font color="black">The Association for Computing Machinery is an international scientific and educational organization dedicated to advancing the art, science, engineering, and application of information technology. The ACM Student Chapter at Cal State LA is among the 430 operating student chapters dedicated to the ideals of the national ACM. Our goals are achieved by weekly general meetings, tutoring, member-led workshops, presentations from industry representatives and special events.</font></p></center>
-                            </div>
-
-                        </div>
-                    </div>
-
-                    <div class="image">
-                    <div class="col-lg-6">
-                        <div class="elements_accordions">
-
-                            <img src="img/acm_logo.png" style="width: 150px; height: 150px">
-
-                            </div>
-
-                        </div>
-                    </div>
+                    <p>The Association for Computing Machinery is an international scientific and educational organization dedicated to advancing the art, science, engineering, and application of information technology. The ACM Student Chapter at Cal State LA is among the 430 operating student chapters dedicated to the ideals of the national ACM. Our goals are achieved by weekly general meetings, tutoring, member-led workshops, presentations from industry representatives and special events.</p>
                 </div>
             </div>
             <!-- our mission-->
             <div class="elements_section">
                 <div class="elements_title">
                     <center>
-                        <h3>Our Mission</h3>
+                        <div class="card cardstyle cardtext textstyle">
+                            <br>
+                            <center><img src="img/acm_logo.png" style="width: 150px; height: 150px"></center>
+                            <br>
+                            <h3>Our Mission</h3>
+                            <p align="center"><font color="black">1.   To be organized and operated exclusively for educational and scientific purposes to promote the following:
+                                  <br>
+                                - An increased knowledge of and greater interest in the science, design, development, construction, languages, management and applications of modern computing.
+                                <br>
+                                - Greater interest in computing and its applications.
+                                <br>
+                                - A means of communication between persons having an interest in computing.
+                                <br>
+                                - A collective effort among the computing machinery students in marketing their skills to the vast and high-paying computing job industry.<br>
+                                <br>
+                                2.    To serve students at Cal State L.A. and other interested persons in the Los Angeles community.<br>
+                                <br>
+                                3.    To be chartered by the ACM.</font></p>
+                        </div>
                     </center>
-                </div>
-                <div class="row">
-                    <div class="col-lg-6">
-                        <div class="elements_progress_bars">
-
-                            <div class="about_text">
-                                <center>
-                                    <p align="justify"><font color="black">1.   To be organized and operated exclusively for educational and scientific purposes to promote the following:
-
-                                        ¨ An increased knowledge of and greater interest in the science, design, development, construction, languages, management and applications of modern computing.
-
-                                        ¨ Greater interest in computing and its applications.
-
-                                        ¨ A means of communication between persons having an interest in computing.
-
-                                        ¨ A collective effort among the computing machinery students in marketing their skills to the vast and high-paying computing job industry.<br>
-
-                                        2.    To serve students at Cal State L.A. and other interested persons in the Los Angeles community.<br>
-
-                                        3.    To be chartered by the ACM.</font></p></center>
-                            </div>
-
-                        </div>
-                    </div>
-
-                    <div class="image">
-                        <div class="col-lg-6">
-                            <div class="elements_accordions">
-
-                                <img src="img/acm_logo.png" style="width: 150px; height: 150px">
-
-                            </div>
-
-                        </div>
-                    </div>
                 </div>
             </div>
             <!-- leaders-->
-            <!-- our mission-->
+            <br>
+            <div class="col-lg-6 offset-lg-3 text-center section_title contact_title">
+                <h2><font color="black">Board Members</font><span>B</span></h2>
+            </div>
             <div class="elements_section">
                 <div class="elements_title">
                     <center>
-                        <h3>Our Leaders</h3>
+                        <div class="card cardstyle cardtext textstyle">
+                            <div class="row elements_loaders_container">
+                                <div class="col-lg-3">
+                                    <!-- Loader -->
+                                    <img src="Leaders/wilsonfinal.png" style="border-radius:25px;width:50%"><br><span>Wilson Thomas<br>President</span>
+                                </div>
+                                <div class="col-lg-3">
+                                    <!-- Loader -->
+                                    <img src="Leaders/pranilfinal.png" style="border-radius:25px; width:50%"><br><span>Pranil Dahal<br>Vice President</span>
+                                </div>
+                                <div class="col-lg-3">
+                                    <!-- Loader -->
+                                    <img src="Leaders/davidfinal.png" style="border-radius:25px; width:50%"><br><span>David San<br>Treasurer</span>
+                                </div>
+                                <div class="col-lg-3">
+                                    <!-- Loader -->
+                                    <img src="Leaders/littlegiofinal.png" style="border-radius:25px; width:50%"><br><span>Geovanny Huerta<br>Secretary</span>
+                                </div>
+                            </div>
+                            <div class="row elements_loaders_container secondrow">
+                                <div class="col-lg-3">
+                                    <!-- Loader -->
+                                    <img src="Leaders/giofinal.png" style="border-radius:25px;width:50%"><br><span>Giovanni Garcia<br>VP Internal Affairs</span>
+                                </div>
+                                <div class="col-lg-3">
+                                    <!-- Loader -->
+                                    <img src="Leaders/brianfinal.png" style="border-radius:25px; width:50%"><br><span>Brian Hernandez<br>Project Manager</span>
+                                </div>
+                                <div class="col-lg-3">
+                                    <!-- Loader -->
+                                    <img src="Leaders/pavitfinal.png" style="border-radius:25px; width:50%"><br><span>Pavit Chawla<br>Webmaster</span>
+                                </div>
+                            </div>
+                        </div>
                     </center>
                 </div>
+            </div>
+            <div class="col-lg-6 offset-lg-3 text-center section_title contact_title">
+                <h2><font color="black">Officers</font><span>O</span></h2>
+            </div>
+            <div class="elements_section">
                 <div class="elements_title">
                     <center>
-                        <h3>Board Members</h3>
+                        <div class="card cardstyle cardtext textstyle">
+                            <div class="row elements_loaders_container">
+                                <div class="col-lg-3">
+                                    <!-- Loader -->
+                                    <img src="Leaders/Kalvin.jpeg" style="border-radius:25px;width:50%"><br><span>Kalvin Mateo</span>
+                                </div>
+                                <div class="col-lg-3">
+                                    <!-- Loader -->
+                                    <img src="Leaders/Diego.jpeg" style="border-radius:25px; width:50%"><br><span>Diego Flores</span>
+                                </div>
+                                <div class="col-lg-3">
+                                    <!-- Loader -->
+                                    <img src="Leaders/Derik.jpeg" style="border-radius:25px; width:50%"><br><span>Deric Kwok</span>
+                                </div>
+                                <div class="col-lg-3">
+                                    <!-- Loader -->
+                                    <img src="Leaders/Rayan.jpeg" style="border-radius:25px; width:50%"><br><span>Ryan Dunning</span>
+                                </div>
+                            </div>
+                            <div class="row elements_loaders_container">
+                                <div class="col-lg-3">
+                                    <!-- Loader -->
+                                    <img src="Leaders/Giovanni.jpeg" style="border-radius:25px;width:50%"><br><span>Giovanni Castellanos</span>
+                                </div>
+                            </div>
+                        </div>
                     </center>
                 </div>
-                <div class="row">
-                    <div class="column">
-                        <img src="Leaders/wilson_1.png" alt="Acm president" style="width:75%">
-                    </div>
-                    <div class="column">
-                        <img src="Leaders/pranil_1.png" alt="Acm president" style="width:75%">
-                    </div>
-                    <div class="column">
-                        <img src="Leaders/david1_2.png" alt="Acm president" style="width:75%">
-                    </div>
+            </div>
+            <div class="col-lg-6 offset-lg-3 text-center section_title contact_title">
+                <h2><font color="black">Committee Members</font><span>C</span></h2>
+            </div>
+            <div class="elements_section">
+                <div class="elements_title">
+                    <center>
+                        <div class="card cardstyle cardtext textstyle">
+                            <div class="row elements_loaders_container">
+                                <div class="col-lg-3">
+                                    <!-- Loader -->
+                                    <img src="Leaders/committe_3.jpeg" style="border-radius:25px;width:50%"><br><span>Johnny Anaya</span>
+                                </div>
+                                <div class="col-lg-3">
+                                    <!-- Loader -->
+                                    <img src="Leaders/committe_1.jpeg" style="border-radius:25px; width:50%"><br><span>Alexis Lopez</span>
+                                </div>
+                                <div class="col-lg-3">
+                                    <!-- Loader -->
+                                    <img src="Leaders/srivats.jpg" style="border-radius:25px; width:50%; height:70%"><br><span>Srivats Venkataraman</span>
+                                </div>
+                                <div class="col-lg-3">
+                                    <!-- Loader -->
+                                    <img src="Leaders/committe_2.jpeg" style="border-radius:25px;width:50%"><br><span>Alfonso Perez</span>
+                                </div>
+                            </div>
+                    </center>
                 </div>
+            </div>
+            <!-- our mission-->
 
             </div>
-
+    <br>
             <!-- Footer -->
 
             <footer class="footer">
@@ -278,7 +323,6 @@ img {
         <script src="plugins/easing/easing.js"></script>
         <script src="js/custom.js"></script>
         <script src="js/dropdown.js"></script>
-
 </body>
 
 </html>

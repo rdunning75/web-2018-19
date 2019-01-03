@@ -14,7 +14,26 @@
 <link rel="stylesheet" type="text/css" href="styles/services_styles.css">
 <link rel="stylesheet" type="text/css" href="styles/services_responsive.css">
 </head>
+<style>
+	.cardstyle{
+        border-radius:10px;
+        max-width:1200px;
+        height:370px;
+        box-shadow: 5px 5px 5px 5px rgba(0.2,0.2,0.2,0.2);
+    }
 
+    .cardtext{
+        margin-top:5px;
+        margin-bottom:5px;
+        margin-right:5px;
+        margin-left:5px;
+    }
+
+    .textstyle{
+        text-align: center;
+        margin:10px;
+    }
+</style>
 <body>
 
 <div class="super_container">
@@ -80,50 +99,54 @@
 			</ul>
 		</div>
 	</div>
-
-	<!-- Page Top -->
 	<div class="home prlx_parent">
 
 		<!-- Parallax Background -->
 		<!-- <div class="page_top_background parallax-window" data-parallax="scroll" data-speed="0.7" data-image-src="images/services_parallax.jpg"></div> -->
 		<div class="title_background prlx" style=" background-image: url(img/slide3.jpg)">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-6">
+						<div class="home_content">
+							<h1>Calendar</h1>
+							<span>View our calendar for the whole semester</span>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-xs-*"></div>
+		<iframe src="https://www.google.com/calendar/embed?src=acm.calstatela%40gmail.com&ctz=America/Los_Angeles"
+				style="margin:20px;" width="100%" height="600" frameborder="0" scrolling="no"></iframe>
+	</div>
+</div>
+</div>
+	<!-- Page Top -->
+	</div>
+	</div>
+
+	<!-- Home Social -->
+</div>
+<div class="home prlx_parent">
+
+	<!-- Parallax Background -->
+	<!-- <div class="page_top_background parallax-window" data-parallax="scroll" data-speed="0.7" data-image-src="images/services_parallax.jpg"></div> -->
+
+	<div class="title_background prlx" style=" background-image: url(img/slide3.jpg); width:1000px; margin-left:200px; margin-top:10px;">
 		<div class="container">
 			<div class="row">
 				<div class="col-lg-6">
 					<div class="home_content">
 						<h1>Events</h1>
-						<span>Learn about the fun events we have planned for this semester</span>
+						<span>View all the fun events we have planned at ACM</span>
 					</div>
 				</div>
 			</div>
 		</div>
-		</div>
 	</div>
-	</div>
-	</div>
-
-	<!-- Home Social -->
-	<div class="home_social_container d-flex flex-row justify-content-end align-items-center">
-		<ul class="home_social">
-			<li><a href="#"><i class="fab fa-pinterest trans_300"></i></a></li>
-			<li><a href="#"><i class="fab fa-facebook-f trans_300"></i></a></li>
-			<li><a href="#"><i class="fab fa-twitter trans_300"></i></a></li>
-			<li><a href="#"><i class="fab fa-dribbble trans_300"></i></a></li>
-			<li><a href="#"><i class="fab fa-behance trans_300"></i></a></li>
-			<li><a href="#"><i class="fab fa-linkedin-in trans_300"></i></a></li>
-		</ul>
-	</div>
-
-	<!-- Services -->
-<br>
-	<br>
-	<br>
-
-	<div class="row">
-		<div class="col-lg-6 offset-lg-3 text-center section_title contact_title">
-			<h2><font color="black">Events</font><span>E</span></h2>
-		</div>
-	</div>
+</div>
 
 	<!-- Cards -->
 
@@ -136,49 +159,49 @@
 
 				<!-- Pic Box -->
 				<div class="col-lg-4 pic_box">
-					<div class="card">
-						<center><img src="img/acm_logo.png" style="width:50%" class="card-img-top" alt=""></center>
-						<h3 class="card-title pic_box_title">General Meeting</h3>
-						<p class="card-text pic_box_text">Our first meeting for fall 2019 semester will be on Jan 29th. Attend it to find out the projects we have planned for this semester, it will be located at Lecture Hall 1</p>
+					<div class="card cardstyle cardtext textstyle">
+						<center><img src="img/chipotle.png" style="width:50%; margin-top:5px;" class="card-img-top" alt=""></center>
+						<h3 class="card-title pic_box_title">Chipotle Fundraiser</h3>
+						<p class="card-text pic_box_text">Join us for our first fundraiser of the semester. Buy a ticket from one of the ACM Members</p>
 					</div>
 				</div>
 
 				<!-- Pic Box -->
 				<div class="col-lg-4 pic_box">
-					<div class="card">
-						<center><img src="img/google.png" style="width:50%" class="card-img-top" alt=""></center>
-						<h3 class="card-title pic_box_title">Google Trip</h3>
-						<p class="card-text pic_box_text">ACM will be taking its members to google's Venice beach office. Stay tuned for more information about it.</p>
-					</div>
-				</div>
-
-				<!-- Pic Box -->
-				<div class="col-lg-4 pic_box">
-					<div class="card">
-						<img src="img/boba.png" style="width:95%" class="card-img-top" alt="">
+					<div class="card cardstyle cardtext textstyle">
+						<center><img src="img/boba.png" style="width:50%; margin-top:5px;" class="card-img-top" alt=""></center>
 						<h3 class="card-title pic_box_title">Boba for everyone</h3>
 						<p class="card-text pic_box_text">In order to raise funds for ACM's project we have multiple fundraisers and this is one of them. Stay tuned for the flyer and more information</p>
 					</div>
 				</div>
+
+				<!-- Pic Box -->
 				<div class="col-lg-4 pic_box">
-					<div class="card">
+					<div class="card cardstyle cardtext textstyle">
+						<img src="img/google.png" style="width:30%; margin-left:110px;" class="card-img-top" alt="">
+						<h3 class="card-title pic_box_title">A Google trip</h3>
+						<p class="card-text pic_box_text">ACM will be taking it's members to Google's Los Angeles office. Stay tuned for the dates and timing and cost.</p>
+					</div>
+				</div>
+				<div class="col-lg-4 pic_box">
+					<div class="card cardstyle cardtext textstyle">
 						<img src="img/fortnite.jpg" style="width:100%" class="card-img-top" alt="">
 						<h3 class="card-title pic_box_title">Game night at the pit</h3>
-						<p class="card-text pic_box_text">Stop by the PIT at the USU to get distracted from your studies and take the opportunity to hang out with CS students. stay tuned for more info</p>
+						<p class="card-text pic_box_text">Stop by the PIT at the USU to have fun with CS students. stay tuned for more info</p>
 					</div>
 				</div>
 				<div class="col-lg-4 pic_box">
-					<div class="card">
-						<img src="img/pizza2.jpeg" style="width:94.5%" class="card-img-top" alt="">
+					<div class="card cardstyle cardtext textstyle">
+						<img src="img/pizza2.jpeg" style="width:100%" class="card-img-top" alt="">
 						<h3 class="card-title pic_box_title">Who doesn't love Pizza!!!</h3>
-						<p class="card-text pic_box_text">Come by King Hall and buy a piece of pizza, and support your Favorite Computer Science Club. Stay tuned for more info</p>
+						<p class="card-text pic_box_text">Come by King Hall and buy a piece of pizza. Stay tuned for more info</p>
 					</div>
 				</div>
 				<div class="col-lg-4 pic_box">
-					<div class="card">
+					<div class="card  cardstyle cardtext textstyle">
 						<img src="img/endgame.jpeg" style="width:100%" class="card-img-top" alt="">
 						<h3 class="card-title pic_box_title">Avengers End Game</h3>
-						<p class="card-text pic_box_text">Buy a ticket from any ACM Board Member, Officer and committee member, to go and watch Avengers End Game. It will be the first day last show.</p>
+						<p class="card-text pic_box_text">Come and watch your favorite Avengers. Buy a ticket from any ACM members. Stay tuned for more updates</p>
 					</div>
 				</div>
 			</div>
