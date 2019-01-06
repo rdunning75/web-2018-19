@@ -97,7 +97,7 @@ p a {
     display: inline;
     position: relative;
     color: inherit;
-    border-bottom: solid 1px #ffa07f;
+    border-bottom: solid 1px #fdeca3;
     -webkit-transition: all 200ms ease;
     -moz-transition: all 200ms ease;
     -ms-transition: all 200ms ease;
@@ -114,12 +114,12 @@ a, a:hover, a:visited, a:active, a:link {
 
 p a:active {
     position: relative;
-    color: #FF6347;
+    color: darkgoldenrod;
 }
 
 p a:hover {
     color: #FFFFFF;
-    background: #ffa07f;
+    background: #fdeca3;
 }
 
 p a:hover::after {
@@ -127,12 +127,12 @@ p a:hover::after {
 }
 
 ::selection {
-    background: #fde0db;
-    color: #ff4200;
+    background: whitesmoke;
+    color: black;
 }
 
 p::selection {
-    background: #fde0db;
+    background: whitesmoke;
 }
 
 h1 {
@@ -204,7 +204,7 @@ h6::selection {
 }
 
 .form-control {
-    color: #db5246;
+    color: darkgoldenrod;
 }
 
 section {
@@ -880,7 +880,7 @@ section {
     right: 0px;
     width: auto;
     height: 74px;
-    background: #ff4200;
+    background: darkgoldenrod;
     z-index: 11;
     padding-right: 38px;
     padding-left: 45px;
@@ -1240,7 +1240,7 @@ section {
 .test_title {
     font-size: 15px;
     font-weight: 400;
-    color: #ff4200;
+    color: darkgoldenrod;
     margin-top: -5px;
 }
 
@@ -1389,14 +1389,14 @@ section {
 
 
 .service_item_white h3 {
-    color: white;
+    color: darkgoldenrod;
     text-transform: uppercase;
     letter-spacing: 0.2em;
     margin-bottom: 31px;
 }
 
 .service_item_white p {
-    color: white;
+    color: grey;
     max-width: 100%;
 }
 
@@ -1647,6 +1647,79 @@ section {
     height: 975px;
     padding-top: 90px;
     margin-bottom: 10%;
+
+}
+
+/*********************************
+11. Picture Boxes
+*********************************/
+
+.picture_boxes
+{
+    padding-top: 132px;
+    padding-bottom: 118px;
+}
+.card
+{
+    border: none;
+}
+.pic_box_title
+{
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 0.2em;
+    margin-top: 40px;
+    margin-bottom: 31px;
+}
+.pic_box_link
+{
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 0.2em;
+    color: darkgoldenrod;
+    text-transform: uppercase;
+    margin-top: 11px;
+    -webkit-transition: all 200ms ease;
+    -moz-transition: all 200ms ease;
+    -ms-transition: all 200ms ease;
+    -o-transition: all 200ms ease;
+    transition: all 200ms ease;
+}
+.pic_box_link svg
+{
+    margin-left: 3px;
+}
+.arrow_poly
+{
+    -webkit-transition: all 200ms ease;
+    -moz-transition: all 200ms ease;
+    -ms-transition: all 200ms ease;
+    -o-transition: all 200ms ease;
+    transition: all 200ms ease;
+}
+.pic_box_link:hover
+{
+    color: #fdeca3;
+}
+.pic_box_link:hover .arrow_poly
+{
+    fill: #fdeca3;
+}
+
+
+/*********************************
+12. Additional Resources
+*********************************/
+
+.about_us_text_phone {
+    background-color: rgba(0,0,0,.05);
+    border-radius: 25px;
+}
+
+
+.about_us_text_computer {
+    background-color: rgba(0,0,0,.05);
+    border-radius: 25px;
 
 }
 

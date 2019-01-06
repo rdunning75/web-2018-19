@@ -507,61 +507,7 @@ section
 	background-position: center center;
 }
 
-/*********************************
-11. Picture Boxes
-*********************************/
 
-.picture_boxes
-{
-	padding-top: 132px;
-	padding-bottom: 118px;
-}
-.card
-{
-	border: none;
-}
-.pic_box_title
-{
-	text-transform: uppercase;
-	font-weight: 600;
-	letter-spacing: 0.2em;
-	margin-top: 40px;
-	margin-bottom: 31px;
-}
-.pic_box_link
-{
-	font-size: 12px;
-	font-weight: 600;
-	letter-spacing: 0.2em;
-	color: #ff4200;
-	text-transform: uppercase;
-	margin-top: 11px;
-	-webkit-transition: all 200ms ease;
-	-moz-transition: all 200ms ease;
-	-ms-transition: all 200ms ease;
-	-o-transition: all 200ms ease;
-	transition: all 200ms ease;
-}
-.pic_box_link svg
-{
-	margin-left: 3px;
-}
-.arrow_poly
-{
-	-webkit-transition: all 200ms ease;
-	-moz-transition: all 200ms ease;
-	-ms-transition: all 200ms ease;
-	-o-transition: all 200ms ease;
-	transition: all 200ms ease;
-}
-.pic_box_link:hover
-{
-	color: #fd9672;
-}
-.pic_box_link:hover .arrow_poly
-{
-	fill: #fd9672;
-}
 
 /*********************************
 11. Contact
