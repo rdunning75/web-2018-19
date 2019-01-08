@@ -32,11 +32,12 @@
                 <a href="../index.html"> <img alt="acm" src="../img/logos/OfficialACMLogo.png" height=90px width=90px
                                               class="logo_img"></a>
             </div>
+
         </div>
 
         <div class="logo_container mr-auto">
             <div class="logo">
-                <a href="../index.html"><span>CalStateLA</span>ACM</a>
+                <a class="logo_title" href="../index.html"><span class="logo_title_span">CalStateLA</span>ACM</a>
             </div>
         </div>
 
@@ -101,7 +102,7 @@
         <div class="title_background prlx" style="background-image:url(../img/slide3.jpg)"></div>
         <div class="container">
             <div class="row">
-                <div class="col-lg-6">
+                <div class="col-lg-7">
                     <div class="title_content">
                         <h1>About Us</h1>
                         <span>ACM: CalState LA Chapter</span>
@@ -239,24 +240,33 @@
                 </div>
             </div>
 
-            <div class=" text-center section_title section_title_dark contact_div " style="margin-top: -100px;">
+            <div id="contacts" class=" text-center section_title section_title_dark contact_div "
+                 style="margin-top: -100px;">
 
                 <h2>Contact Us<span>ACM</span></h2>
-                <div class="picture_boxes d-flex flex-row justify-content-center" style="margin-top: -100px;">
+                <div class="picture_boxes " style="margin-top: -100px;">
 
-                    <div class="col-lg-5 pic_box">
-                        <div class="card">
+                    <div class="d-flex about_us_text_computer col-7 center">
+                        <p> If you have any questions or concerns about office hours, workshop times, tutoring hours or
+                            just
+                            want to give us some general feed back, feel free to send us an email! You can also reach
+                            out to us
+                            on our official facebook page and Instagram!
+                        </p>
+                    </div>
+
+
+                    <div class="d-flex flex-row pic_box justify-content-center mt-5">
+
+                        <div class="card col-5 mr-5">
                             <div class="pic_box_title">Office Location & Timings</div>
                             <p class="pic_box_text"> ECST C-245</p>
                             <p class="pic_box_text"> Thursday: 3:00 to 4:20</p>
                         </div>
-                    </div>
 
 
-                    <div class="col-lg-5 pic_box">
-                        <div class="card">
+                        <div class="card col-5 ml-5">
                             <div class="pic_box_title">Office Location & Timings</div>
-
                             <ul>
                                 <li><a href="mailto:acm.calstatela@gmail.com">Email Us</a></li>
                                 <li><a href="https://www.instagram.com/calstatela_acm/"
@@ -266,6 +276,8 @@
                             </ul>
                         </div>
                     </div>
+
+
                 </div>
 
             </div>
@@ -299,7 +311,7 @@
                             <!-- Board Members -->
 
                             <div class="owl-item testimonials_item_double d-flex flex-column align-items-center justify-content-center text-center">
-                                <div class="d-flex flex-row">
+                                <div class="d-flexflex-row">
 
                                     <div class="testimonials_content">
                                         <div class="test_name ">Board</div>
@@ -314,7 +326,10 @@
                                         <div class="test_user_pic"><img src="../Leaders/Wilson_edit.png"
                                                                         alt="wilson">
                                         </div>
-                                        <div class="test_name">Wilson Thomas</div>
+                                        <div class="name_box">
+                                            <div>Wilson</div>
+                                            <div>Thomas</div>
+                                        </div>
                                         <p>President</p>
                                     </div>
 
@@ -322,7 +337,10 @@
                                     <div class="testimonials_content">
                                         <div class="test_user_pic"><img src="../Leaders/pranil_edit.png"
                                                                         alt="pranil"></div>
-                                        <div class="test_name">Pranil Dahal</div>
+                                        <div class="name_box">
+                                            <div>Pranil</div>
+                                            <div>Dahal</div>
+                                        </div>
                                         <p>Vice President</p>
                                     </div>
                                 </div>
@@ -336,17 +354,37 @@
                                     <div class="testimonials_content">
                                         <div class="test_user_pic"><img src="../Leaders/david1_edit.png"
                                                                         alt="david"></div>
-                                        <div class="test_name">David San</div>
+                                        <div class="name_box">
+                                            <div>David</div>
+                                            <div>San</div>
+                                        </div>
                                         <p>Treasurer</p>
                                     </div>
 
+
                                     <div class="testimonials_content">
-                                        <div class="test_user_pic"><img src="../Leaders/dean1_edit.png"
-                                                                        style="height:100px"
-                                                                        alt="dean"></div>
-                                        <div class="test_name">Dean Roth</div>
-                                        <p>Secretary</p>
+                                        <!--<div class="test_user_pic"><img src="../Leaders/dean1_edit.png"-->
+                                                                        <!--style="height:100px"-->
+                                                                        <!--alt="dean"></div>-->
+                                        <!--<div class="test_name">Dean Roth</div>-->
+                                        <!--<p>Secretary</p>-->
                                     </div>
+
+
+                                    <div class="testimonials_content">
+                                        <div class="test_user_pic"><img src="../Leaders/pavit_edit.png"
+                                                                        style="height:100px"
+                                                                        alt="pavit"></div>
+                                        <div class="name_box">
+                                            <div>Pavit</div>
+                                            <div>Chawla</div>
+                                        </div>
+                                        <p>Webmaster</p>
+                                    </div>
+
+
+
+
                                 </div>
 
                                 <div class="d-flex flex-row  hidden-on-phone">
@@ -355,23 +393,24 @@
                                         <div class="test_user_pic"><img src="../Leaders/gio_edit.png"
                                                                         style="height:100px"
                                                                         alt="gio"></div>
-                                        <div class="test_name">Giovanni Garcia</div>
+                                        <div class="name_box">
+                                            <div style="margin-left: -9px;">Giovanni</div>
+                                            <div>Garcia</div>
+                                        </div>
+
                                         <p>VP Internal Affairs</p>
                                     </div>
 
-                                    <div class="testimonials_content">
-                                        <div class="test_user_pic"><img src="../Leaders/pavit_edit.png"
-                                                                        style="height:100px"
-                                                                        alt="pavit"></div>
-                                        <div class="test_name">Pavit Chawla</div>
-                                        <p>Webmaster</p>
-                                    </div>
+
 
                                     <div class="testimonials_content">
                                         <div class="test_user_pic"><img src="../Leaders/brian_edit.png"
                                                                         style="height:100px"
                                                                         alt="brian"></div>
-                                        <div class="test_name brian">Brian Hernandez</div>
+                                        <div class="name_box">
+                                            <div>Brian</div>
+                                            <div style="margin-left: -23px;">Hernandez</div>
+                                        </div>
                                         <p>Project Manager</p>
                                     </div>
                                 </div>
@@ -385,6 +424,9 @@
                                     <div class="testimonials_content">
                                         <div class="test_user_pic"><img src="../Leaders/david1_edit.png"
                                                                         alt="david"></div>
+                                        <div class="name_box">
+
+                                        </div>
                                         <div class="test_name ">David San</div>
                                         <p>Treasurer</p>
                                     </div>
@@ -448,7 +490,10 @@
                                         <div class="test_user_pic"><img src="../Leaders/Kalvin.png"
                                                                         alt="wilson">
                                         </div>
-                                        <div class="test_name">Kalvin Mateo</div>
+                                        <div class="name_box">
+                                            <div>Kalvin</div>
+                                            <div>Mateo</div>
+                                        </div>
                                         <p>Officer</p>
                                     </div>
 
@@ -456,7 +501,10 @@
                                         <div class="test_user_pic"><img src="../Leaders/Diego.png"
                                                                         alt="wilson">
                                         </div>
-                                        <div class="test_name">Diego Flores</div>
+                                        <div class="name_box">
+                                            <div>Diego</div>
+                                            <div>Flores</div>
+                                        </div>
                                         <p>Officer</p>
                                     </div>
                                 </div>
@@ -472,21 +520,30 @@
                                         <div class="test_user_pic"><img src="../Leaders/Derik.png"
                                                                         alt="wilson">
                                         </div>
-                                        <div class="test_name small_name">Deric Kwok</div>
+                                        <div class="name_box">
+                                            <div>Deric</div>
+                                            <div>Kwok</div>
+                                        </div>
                                         <p>Officer</p>
                                     </div>
                                     <div class="testimonials_content">
                                         <div class="test_user_pic"><img src="../Leaders/Giovanni.png"
                                                                         alt="wilson">
                                         </div>
-                                        <div class="test_name">Giovanni Castellanos</div>
+                                        <div class="name_box">
+                                            <div style="margin-left: -9px;">Giovanni</div>
+                                            <div style="margin-left: -30px;">Castellanos</div>
+                                        </div>
                                         <p>Officer</p>
                                     </div>
                                     <div class="testimonials_content">
                                         <div class="test_user_pic"><img src="../img/acm_logo.png"
                                                                         alt="wilson">
                                         </div>
-                                        <div class="test_name">Ralph Belleca</div>
+                                        <div class="name_box">
+                                            <div>Ralph</div>
+                                            <div>Belleca</div>
+                                        </div>
                                         <p>Officer</p>
                                     </div>
                                 </div>
@@ -496,14 +553,20 @@
                                         <div class="test_user_pic"><img src="../Leaders/officer.png"
                                                                         alt="wilson">
                                         </div>
-                                        <div class="test_name">Geovanny Huerta</div>
+                                        <div class="name_box">
+                                            <div style="margin-left: -15px;">Geovanny</div>
+                                            <div>Huerta</div>
+                                        </div>
                                         <p>Officer</p>
                                     </div>
                                     <div class="testimonials_content">
                                         <div class="test_user_pic"><img src="../Leaders/Rayan.png"
                                                                         alt="wilson">
                                         </div>
-                                        <div class="test_name">Ryan Dunning</div>
+                                        <div class="name_box">
+                                            <div>Ryan</div>
+                                            <div>Dunning</div>
+                                        </div>
                                         <p>Officer</p>
                                     </div>
 
@@ -511,7 +574,11 @@
                                         <div class="test_user_pic"><img src="../img/acm_logo.png"
                                                                         alt="wilson">
                                         </div>
-                                        <div class="test_name small_name">Ivy Chan</div>
+                                        <div class="test_name small_name"> </div>
+                                        <div class="name_box">
+                                            <div>Ivy</div>
+                                            <div>Chan</div>
+                                        </div>
                                         <p>Officer</p>
                                     </div>
                                 </div>
@@ -547,7 +614,8 @@
                                         <div class="test_user_pic"><img src="../Leaders/officer.png"
                                                                         alt="wilson">
                                         </div>
-                                        <div class="test_name">Geovanny Huerta</div>
+                                        <div class="test_name">Geovanny</div>
+                                        <div class="test_name">Huerta</div>
                                         <p>Officer</p>
                                     </div>
                                 </div>

@@ -28,9 +28,11 @@ $(document).ready(function()
 
 	var ctrl = new ScrollMagic.Controller();
 	var controller = new ScrollMagic.Controller();
+    var menuActive = false;
 	var header = $('.header');
 	var img = $('.logo_img ');
-	var menuActive = false;
+	var navbarTitle = $('.logo_title');
+    var navbarTitleSpan = $('.logo_title_span');
 	var hamb = $('.hamburger_container');
 	var menu = $('.fs_menu_container');
 	var hambIcon = $('.hamburger_icon');
@@ -68,25 +70,30 @@ $(document).ready(function()
 	{
 		if(window.innerWidth < 992)
 		{
-			if($(window).scrollTop() > 100)
+			if($(window).scrollTop() > 59)
 			{
 				header.css({'height':"90px"});
 				img.css({'height':"75px", 'width':"75px"});
-
+				navbarTitle.css({'font-size':"55px", 'margin-left':"-45px" });
+                navbarTitleSpan.css({'font-size':"20px",'margin-left':"1px", 'margin-top':"10px"});
 			}
 			else
 			{
 				header.css({'height':"125px"});
                 img.css({'height':"100px", 'width':"100px"});
+                navbarTitle.css({'font-size':"40px", 'margin-left':"-15px"});
+                navbarTitleSpan.css({'font-size':"25px",'margin-left': "-28px", 'margin-top':"3px"});
 
             }
 		}
 		else
 		{
-			if($(window).scrollTop() > 100)
+			if($(window).scrollTop() > 59)
 			{
 				header.css({'height':"90px"});
                 img.css({'height':"75px", 'width':"75px"});
+                navbarTitle.css({'font-size':"55px", 'margin-left':"-45px" });
+                navbarTitleSpan.css({'font-size':"20px",'margin-left':"1px", 'margin-top':"10px"});
 
 
             }
@@ -94,6 +101,8 @@ $(document).ready(function()
 			{
 				header.css({'height':"125px"});
                 img.css({'height':"100px", 'width':"100px"});
+                navbarTitle.css({'font-size':"40px", 'margin-left':"-15px"});
+                navbarTitleSpan.css({'font-size':"25px",'margin-left': "-28px", 'margin-top':"3px"});
 
             }
 		}
