@@ -730,8 +730,6 @@ section {
 }
 
 /*********************************
-=======
->>>>>>> 8cf6b359caa572aa64d434596d35ef14ea1784e0
 4. Main Slider
 *********************************/
 
@@ -904,6 +902,13 @@ section {
 
 .home_social li:hover i {
     color: rgba(255, 255, 255, 1);
+}
+
+
+.home_social_icons{
+    height: 75px;
+    width: 70px;
+    padding-top: 10px;
 }
 
 /*********************************
@@ -1720,8 +1725,14 @@ section {
 .about_us_text_computer {
     background-color: rgba(0,0,0,.05);
     border-radius: 25px;
-
 }
+
+.button_on_phone{
+    margin-left: 25vw;
+    top: -20px;
+}
+
+
 
 
 

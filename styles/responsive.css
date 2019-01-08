@@ -360,7 +360,7 @@
 @media only screen and (max-width: 575px)
 {
 	h2{font-size:24px;}
-	p{font-size:14px;}
+	p{font-size:16px;}
 	.header
 	{
 		padding-left: 15px;
@@ -447,14 +447,14 @@
 	h1{font-size: 24px;}
 	h2{font-size: 16px;}
 	h3{font-size: 16px;}
-	p{font-size: 13px;}
+	p{font-size: 17px;}
 	.fs_menu_container.active
 	{
-		padding-top: 100px;
+		padding-top: 120px;
 	}
 	.fs_menu_list li a
 	{
-		font-size: 24px;
+		font-size: 50px;
 	}
 	.fs_menu_list li a > span::after
 	{

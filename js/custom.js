@@ -34,6 +34,10 @@ $(document).ready(function()
 	var hamb = $('.hamburger_container');
 	var menu = $('.fs_menu_container');
 	var hambIcon = $('.hamburger_icon');
+	var menubuttonsphone = $('.button_on_phone');
+    var menubuttonscomputer = $('.button_on_computer');
+
+    var windowSize = $(window);
 
 	setHeader();
 
@@ -53,6 +57,7 @@ $(document).ready(function()
 	initTestimonialsSlider();
 	initClientsSlider();
 	initParallax();
+	buttonmovement();
 
 	/*
 	2. Set Header
@@ -369,4 +374,23 @@ $(document).ready(function()
 			});
 		}
 	}
+
+    /*
+
+    9. Move button from bottom to right on index
+
+    */
+	
+	function buttonmovement() {
+
+        menubuttonsphone.toggle(windowSize.width() < 992);
+
+        menubuttonscomputer.toggle(windowSize.width() > 992);
+
+
+
+    }
+    buttonmovement();
+    windowSize.resize(buttonmovement);
+	
 });
