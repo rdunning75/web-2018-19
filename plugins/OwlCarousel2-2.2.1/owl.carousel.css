@@ -6,7 +6,7 @@
 /*
  *  Owl Carousel - Core
  */
-.owl-carousel
+.˜owl-carousel
 {
     display: none;
     width: 100%;
@@ -64,6 +64,22 @@
     -webkit-tap-highlight-color: transparent;
     -webkit-touch-callout: none;
 }
+
+/* added to create half page sliders*/
+
+.owl-carousel_events .owl-item_events
+{
+    position: relative;
+    min-height: 1px;
+    width: 400px;
+    height: 100%;
+    float: left;
+    -webkit-backface-visibility: hidden;
+    -webkit-tap-highlight-color: transparent;
+    -webkit-touch-callout: none;
+}
+
+
 .owl-carousel .owl-item img
 {
     display: block;

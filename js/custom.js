@@ -382,6 +382,9 @@ $(document).ready(function()
 			    .addTo(ctrl);
 			});
 		}
+
+
+
 	}
 
     /*
@@ -393,10 +396,7 @@ $(document).ready(function()
 	function buttonmovement() {
 
         menubuttonsphone.toggle(windowSize.width() < 992);
-
         menubuttonscomputer.toggle(windowSize.width() > 992);
-
-
 
     }
     buttonmovement();

@@ -14,6 +14,10 @@
     <link rel="stylesheet" type="text/css" href="../styles/main_styles.css">
     <link rel="stylesheet" type="text/css" href="../styles/responsive.css">
     <link rel="stylesheet" href="../css/master.css">
+
+    <script src="https://www.paypalobjects.com/api/checkout.js"></script>
+    <script src="../js/paypal.js"></script>
+
 </head>
 <body>
 
@@ -26,7 +30,8 @@
         <!-- Logo -->
         <div class="logo_container mr-auto">
             <div class="logo">
-                <a href="../index.html">  <img alt="acm" src="../img/logos/OfficialACMLogo.png" height=100px width=100px class="logo_img"></a>
+                <a href="../index.html"> <img alt="acm" src="../img/logos/OfficialACMLogo.png" height=100px width=100px
+                                              class="logo_img"></a>
             </div>
         </div>
 
@@ -46,7 +51,6 @@
                 <li><a href="calendar.html"><span>Calendar</span></a></li>
                 <li class="active"><a href="membership.html"> <span>Membership</span></a></li>
                 <li><a href="resources.html"><span>Resources</span></a></li>
-                <li><a href="tutoring.html"><span>Tutoring</span></a></li>
             </ul>
         </nav>
 
@@ -166,9 +170,11 @@
                 the first meeting of each semester (check the calendar for more details). There are two types of
                 annual
                 memberships...</p>
+
+
             <table>
                 <tr>
-                    <td style="padding: 20px;"><h3><b>5$ membership</b></h3>
+                    <td style="padding-: 20px;"><h3><b>5$ membership</b></h3>
                         <ul>
                             <li>❖ Pay once, lasts two semesters.</li>
                             <li>❖ Opportunity to join hands-on work shops - get access to all equipment.</li>
@@ -191,96 +197,172 @@
                     </td>
                 </tr>
             </table>
-            <!--Membership steps -->
-
         </div>
-        <div class="testimonials">
-            <div class="container">
+        <!--Membership steps -->
+    </div>
 
-                <div class="row">
-                    <div class="col-lg-6 offset-lg-3 text-center section_title section_title ">
-                        <h2>How do I become a Member<span>?</span></h2>
-                    </div>
-                </div>
+    <div class="col-lg-10" style="padding-left:175px; margin-top: -80px;">
+        <div class="elements_accordions">
+            <div class="accordion_container">
+                <div class="accordion d-flex flex-row align-items-center">Loyalty Card</div>
+                <div class="accordion_panel">
+                    <div class="card_body">
 
-                <div class="row">
-                    <div class="col-lg-10 offset-lg-1">
-                        <div class="testimonials_container">
-                            <div class="testimonials_container_inner"></div>
-                            <div class="owl-carousel owl-theme testimonials_slider">
-
-                                <!-- Testimonials Item -->
-                                <div class="owl-item testimonials_item d-flex flex-column align-items-center justify-content-center text-center ">
-
-
-                                    <div class="testimonials_content_membership">
-                                        <div class="test_name_membership"><b>Step 1</b></div>
-                                        <div class="test_title" style="padding-top: 40px;">Pay for your Membership</div>
-                                        <p>This can be done through <i>Google Pay, Venmo, or Paypal.(If you
-                                            decide to use paypal, <b>please send money as a friend</b>)</i></p>
-
-                                        <img style="display: inline-block; height: 50px"
-                                             src="../images/google1.png">
-                                        <img style="display: inline-block; height: 50px"
-                                             src="../images/paypal.jpg">
-                                        <img style="display: inline-block; height: 50px"
-                                             src="../images/venmo.png">
-                                        <br/><i>Send all payments to <b>ACM.Calstatela@gmail.com</b>
-                                        <br/>Or, pay in person.</i>
-
-                                    </div>
-                                </div>
-
-
-                                <!-- Testimonials Item -->
-                                <div class="owl-item testimonials_item d-flex flex-column align-items-center justify-content-center text-center">
-                                    <div class="testimonials_content_membership">
-
-                                        <div class="test_name_membership" ><b>Step 2</b></div>
-                                        <div class="test_title" style="padding-top: 95px;"  >Complete the Application</div>
-                                        <p>Upload an invoice from Step 1 onto the Membership Application.</br>
-                                            Complete application <b><a
-                                                    href="https://docs.google.com/forms/d/1mVgIwUTGt0YKCCtGA6BvOiQzMyMgR-dkt8ZvNL4CY14/viewform?edit_requested=true">here</a></b>
-                                            and join our discord <b><a
-                                                    href="https://discordapp.com/invite/wX58JRv">here</a></b>
-                                        </p>
-
-                                    </div>
-                                </div>
-
-                                <!-- Testimonials Item -->
-                                <div class="owl-item testimonials_item d-flex flex-column align-items-center justify-content-center text-center">
-                                    <div class="testimonials_content_membership">
-
-                                        <div class="row">
-                                            <div class="col-lg-6 offset-lg-3 text-center section_title section_title_dark" style="padding-top: 120px;">
-                                                <h2>Congrats! You're in!<span>★</span></h2>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-
-                            </div>
-
+                        <div class="card_content">
+                            <p>
+                                Our Loyalty Card Program will provide members of ACM with a Loyalty card that they can
+                                use to
+                                earn extra credit in their CS classes.
+                            </p>
+                            <u>
+                                <p class="tutor-classes"> How does this program work?</p>
+                            </u>
+                            <ul>
+                                <li>
+                                    <h4>
+                                        You will be provided with a loyalty card which looks like the image below:
+                                    </h4>
+                                    <p style="text-align:center;">
+                                        <img src="../img/loyalty_card1.JPG" alt="Loyalty Card" width="400"
+                                             height="auto">
+                                    </p>
+                                </li>
+                                <li>
+                                    <h4>
+                                        You will receive stamps for attending meetings and other events that happen
+                                        throughout the year
+                                    </h4>
+                                </li>
+                                <li>
+                                    <h4>
+                                        The last day to sign up for this program is
+                                        <b>
+                                            <font color="red"> Friday, September 7th by 5:00PM.
+                                            </font>
+                                        </b>
+                                    </h4>
+                                </li>
+                            </ul>
                         </div>
                     </div>
 
-                    <!-- Testimonials Slider Navigation -->
 
-                    <div class="test_slider_nav test_slider_nav_left d-flex flex-column justify-content-center align-items-center trans_200">
-                        <i class="fas fa-chevron-left trans_200"></i>
+                    <!-- event page information -->
+                    <div>
+                        <div class="container">
+                            <div class="row align-items-center justify-content-center text-center">
+                                <div class="service_item text-center d-flex flex-column align-items-center justify-content-center">
+                                    <p class="tutor-classes">
+                                        The DEADLINE to sign up for Loyalty Card Program was
+                                        <font color="red">
+                                            <b>September 7th by 5PM [DEADLINE PASSED]</b>
+                                        </font>
+                                    </p>
+                                    <p class="titles"></p>
+                                    <h4>
+                                        <b>*** If you signed up for the program after September 1st at 5:00PM, you are
+                                            on a
+                                            waitlist.
+                                            ***</b>
+                                        <br>
+                                    </h4>
+                                    </p>
+                                    <ul>
+                                        <li>
+                                            What should you do now?
+                                        </li>
+                                        <li>
+                                            Please do not show up for the workshop meetings as we are running at full
+                                            capacity
+                                            for
+                                            classrooms. We can only accomodate up to 70 members in our workshops.
+                                        </li>
+                                        <li>
+                                            If there is still room available in our workshops, you will be contacted
+                                            through
+                                            email.
+                                            Please
+                                            check your email regularly.
+                                        </li>
+                                        <li>
+                                            <font color="red">
+                                                <b>Important:</b> If you do not have a spot in the workshops, you will
+                                                not be
+                                                eligible
+                                                for extra credit. No spot in project = No extra credit
+                                            </font>
+                                        </li>
+                                        <li>
+                                            However, if you remain on the waitlist for the projects this semester you
+                                            will get
+                                            priority
+                                            to do the project next semester.
+                                        </li>
+                                    </ul>
+                                    <br>
+                                    <p class="titles">If you have any questions, please send us an
+                                        <a href="mailto:acm.calstatela@gmail.com">email</a>.
+                                    </p>
+                                    <!-- <h3><a href="mailto:acm.calstatela@gmail.com"> acm.calstatela@gmail.com</a>
+                                    </h3> -->
+                                </div>
+                            </div>
+                        </div>
                     </div>
+                </div>
+            </div>
+        </div>
+    </div>
 
-                    <div class="test_slider_nav test_slider_nav_right d-flex flex-column justify-content-center align-items-center trans_200">
-                        <i class="fas fa-chevron-right trans_200"></i>
+
+    <div class="testimonials">
+        <div class="container">
+
+            <div class="row">
+                <div class="col-lg-6 offset-lg-3 text-center section_title section_title ">
+                    <h2>How do I become a Member<span>?</span></h2>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-lg-10 offset-lg-1">
+                    <div class="testimonials_container">
+                        <div class="testimonials_container_inner"></div>
+                        <!--<div class="owl-carousel owl-theme testimonials_slider">-->
+
+                        <!-- Testimonials Item -->
+                        <div class="owl-item testimonials_item d-flex flex-column align-items-center justify-content-center text-center ">
+                            <div class="testimonials_content_membership">
+
+                                <p class="test_name"> Here you can pay for the either the $5 or $10 membership! </p>
+                                <div class="d-flex flex-row justify-content-center " style="margin-top: 100px;">
+                                    <div class="payment_buttons col-8" id="dollar5">
+                                        <p>$5 Dollar membership</p>
+                                    </div>
+                                    <div class="payment_buttons col-8" id="dollar10">
+                                        <p>$10 Dollar membership</p>
+
+                                    </div>
+                                </div>
+                            </div>
+
+
+                        </div>
+
+                        <!--</div>-->
                     </div>
-
                 </div>
             </div>
         </div>
 
 
     </div>
+
+    <div class="d-flex flex-row">
+
+    </div>
+
+
 </div>
 
 
@@ -300,7 +382,6 @@
         </div>
     </div>
 </footer>
-
 <script src="../js/jquery-3.2.1.min.js"></script>
 <script src="../styles/bootstrap4/popper.js"></script>
 <script src="../styles/bootstrap4/bootstrap.min.js"></script>
@@ -312,6 +393,7 @@
 <script src="../plugins/progressbar/progressbar.min.js"></script>
 <script src="../plugins/OwlCarousel2-2.2.1/owl.carousel.js"></script>
 <script src="../plugins/easing/easing.js"></script>
+<script src="../js/elements_custom.js"></script>
 <script src="../js/custom.js"></script>
 <script src="../js/dropdown.js"></script>
 

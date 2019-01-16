@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+
     <title>ACM</title>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -13,6 +14,7 @@
     <link rel="stylesheet" type="text/css" href="../plugins/OwlCarousel2-2.2.1/animate.css">
     <link rel="stylesheet" type="text/css" href="../styles/main_styles.css">
     <link rel="stylesheet" type="text/css" href="../styles/responsive.css">
+    <link rel="stylesheet" type="text/css" href="../styles/double_carousel.css">
     <link rel="stylesheet" href="../css/master.css">
 </head>
 <body>
@@ -27,7 +29,8 @@
         <!-- Logo -->
         <div class="logo_container mr-auto">
             <div class="logo">
-                <a href="../index.html">  <img alt="acm" src="../img/logos/OfficialACMLogo.png" height=90px width=90px class="logo_img"></a>
+                <a href="../index.html"> <img alt="acm" src="../img/logos/OfficialACMLogo.png" height=90px width=90px
+                                              class="logo_img"></a>
             </div>
         </div>
 
@@ -48,7 +51,6 @@
                 <li class="active"><a href="calendar.html"><span>Calendar</span></a></li>
                 <li><a href="membership.html"> <span>Membership</span></a></li>
                 <li><a href="resources.html"><span>Resources</span></a></li>
-                <li><a href="tutoring.html"><span>Tutoring</span></a></li>
             </ul>
         </nav>
 
@@ -92,12 +94,12 @@
     <div class="title prlx_parent">
 
         <div class="title_background prlx" style="background-image:url(../img/slide2.jpg)"></div>
-        <div class="container">
-            <div class="row" >
-                <div class="col-lg-6 ">
-                    <div class="title_content">
-                        <h1>Calendar</h1>
-                        <span>See what were up to</span>
+        <div class="container ">
+            <div class="row">
+                <div class="col-lg-7 ">
+                    <div class="title_content ">
+                        <h1>Calendar / Events</h1>
+                        <span>See what we're up to</span>
                     </div>
                 </div>
             </div>
@@ -105,12 +107,198 @@
     </div>
 
 
-
-    <div class="body">
+    <div class="body slider_prlx">
         <iframe src="https://www.google.com/calendar/embed?src=acm.calstatela%40gmail.com&amp;ctz=America/Los_Angeles"
-                style="border: 0" width="100%" height="100%" frameborder="10" scrolling="no"></iframe>
+                style="border: 0" width="100%" height="85%" frameborder="10" scrolling="no"></iframe>
+    </div>
+
+    <div class="d-flex flex-row justify-content-center margin-top-100">
+        <div class="section_title section_title_dark col-6">
+            <h2>General Events<span>ACM</span></h2>
+        </div>
+
+        <div class="section_title section_title_dark col-3 ">
+            <h2>Workshops<span>ACM</span></h2>
+        </div>
+
+    </div>
+
+    <div class="d-flex flex-row justify-content-start">
+
+        <div class="double_carousel_card_slider">
+
+            <div class=" owl-carousel owl-theme">
+
+                <div class="owl-item owl-theme ">
+                    <div class="col_small_width ">
+                        <div class="event_slider_bg" style="background-image: url(../images/slide1.jpg)"></div>
+                        <div class="event_slider_content">
+                            <h1>Hello world</h1>
+                            <p>This is a test!</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="owl-item owl-theme  ">
+                    <div class="col_small_width">
+                        <div class="event_slider_bg" style="background-image: url(../img/Chipotle-Logo.png); "></div>
+                        <div class="event_slider_content">
+                            <h1>Hello world</h1>
+                            <p>This is a test!</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="owl-item owl-theme  ">
+                    <div class="col_small_width">
+                        <div class="event_slider_bg" style="background-image: url(../img/boba.png)"></div>
+                        <div class="event_slider_content">
+                            <h1>Hello world</h1>
+                            <p>This is a test!</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="owl-item owl-theme  ">
+                    <div class="col_small_width">
+                        <div class="event_slider_bg" style="background-image: url(../img/fortnite.jpg)"></div>
+                        <div class="event_slider_content">
+                            <h1>Hello world</h1>
+                            <p>This is a test!</p>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="owl-item owl-theme  ">
+                    <div class="col_small_width ">
+                        <div class="event_slider_bg" style="background-image: url(../img/pizza2.jpeg)"></div>
+                        <div class="event_slider_content">
+                            <h1>Hello world</h1>
+                            <p>This is a test!</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="owl-item owl-theme ">
+                    <div class="col_small_width">
+                        <div class="event_slider_bg" style="background-image: url(../img/endgame.jpeg)"></div>
+                        <div class="event_slider_content">
+                            <h1>Hello world</h1>
+                            <p>This is a test!</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="main_slider_nav_left main_slider_nav">
+                <i class="fas fa-chevron-left trans_300"></i>
+            </div>
+
+            <div class="main_slider_nav_right main_slider_nav">
+                <i class="fas fa-chevron-right trans_300"></i>
+            </div>
+
+        </div>
+
+
+        <div class="double_carousel_card_slider">
+
+            <div class=" owl-carousel owl-theme">
+                <div class="owl-item owl-theme hero_slider">
+                    <div class="col_small_width ">
+                        <div class="event_slider_bg" style="background-image: url(../img/pizza2.jpeg)"></div>
+                        <div class="event_slider_content">
+                            <h1>Hello world</h1>
+                            <p>This is a test!</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="owl-item owl-theme hero_slider">
+                    <div class="col_small_width">
+                        <div class="event_slider_bg" style="background-image: url(../img/endgame.jpeg)"></div>
+                        <div class="event_slider_content">
+                            <h1>Hello world</h1>
+                            <p>This is a test!</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
 </div>
+
+    <!--</div>-->
+
+
+    <!--<div class="picture_boxes">-->
+
+        <!--<div class="container">-->
+            <!--<div class="row">-->
+
+                <!--&lt;!&ndash; Pic Box &ndash;&gt;-->
+                <!--<div class="col-lg-4 pic_box">-->
+                    <!--<div class="card cardstyle cardtext textstyle">-->
+                        <!--<center><img src="../img/chipotle.png" style="width:50%; margin-top:5px;" class="card-img-top"-->
+                                     <!--alt=""></center>-->
+                        <!--<h3 class="card-title pic_box_title">Chipotle Fundraiser</h3>-->
+                        <!--<p class="card-text pic_box_text">Join us for our first fundraiser of the semester. Buy a ticket-->
+                            <!--from one of the ACM Members</p>-->
+                    <!--</div>-->
+                <!--</div>-->
+
+                <!--&lt;!&ndash; Pic Box &ndash;&gt;-->
+                <!--<div class="col-lg-4 pic_box">-->
+                    <!--<div class="card cardstyle cardtext textstyle">-->
+                        <!--<center><img src="../img/boba.png" style="width:50%; margin-top:5px;" class="card-img-top"-->
+                                     <!--alt=""></center>-->
+                        <!--<h3 class="card-title pic_box_title">Boba for everyone</h3>-->
+                        <!--<p class="card-text pic_box_text">In order to raise funds for ACM's project we have multiple-->
+                            <!--fundraisers and this is one of them. Stay tuned for the flyer and more information</p>-->
+                    <!--</div>-->
+                <!--</div>-->
+
+                <!--&lt;!&ndash; Pic Box &ndash;&gt;-->
+                <!--<div class="col-lg-4 pic_box">-->
+                    <!--<div class="card cardstyle cardtext textstyle">-->
+                        <!--<img src="../img/google.png" style="width:30%; margin-left:110px;" class="card-img-top" alt="">-->
+                        <!--<h3 class="card-title pic_box_title">A Google trip</h3>-->
+                        <!--<p class="card-text pic_box_text">ACM will be taking it's members to Google's Los Angeles-->
+                            <!--office. Stay tuned for the dates and timing and cost.</p>-->
+                    <!--</div>-->
+                <!--</div>-->
+                <!--<div class="col-lg-4 pic_box">-->
+                    <!--<div class="card cardstyle cardtext textstyle">-->
+                        <!--<img src="../img/fortnite.jpg" style="width:100%" class="card-img-top" alt="">-->
+                        <!--<h3 class="card-title pic_box_title">Game night at the pit</h3>-->
+                        <!--<p class="card-text pic_box_text">Stop by the PIT at the USU to have fun with CS students. stay-->
+                            <!--tuned for more info</p>-->
+                    <!--</div>-->
+                <!--</div>-->
+                <!--<div class="col-lg-4 pic_box">-->
+                    <!--<div class="card cardstyle cardtext textstyle">-->
+                        <!--<img src="../img/pizza2.jpeg" style="width:100%" class="card-img-top" alt="">-->
+                        <!--<h3 class="card-title pic_box_title">Who doesn't love Pizza!!!</h3>-->
+                        <!--<p class="card-text pic_box_text">Come by King Hall and buy a piece of pizza. Stay tuned for-->
+                            <!--more info</p>-->
+                    <!--</div>-->
+                <!--</div>-->
+                <!--<div class="col-lg-4 pic_box">-->
+                    <!--<div class="card  cardstyle cardtext textstyle">-->
+                        <!--<img src="../img/endgame.jpeg" style="width:100%" class="card-img-top" alt="">-->
+                        <!--<h3 class="card-title pic_box_title">Avengers End Game</h3>-->
+                        <!--<p class="card-text pic_box_text">Come and watch your favorite Avengers. Buy a ticket from any-->
+                            <!--ACM members. Stay tuned for more updates</p>-->
+                    <!--</div>-->
+                <!--</div>-->
+            <!--</div>-->
+        <!--</div>-->
+
+    <!--</div>-->
+
+
+<!--</div>-->
 
 <footer class="footer">
     <div class="container">
@@ -142,6 +330,7 @@
 <script src="../plugins/easing/easing.js"></script>
 <script src="../js/custom.js"></script>
 <script src="../js/dropdown.js"></script>
+<script src="../js/double_carousel.js"></script>
 
 
 </body>
