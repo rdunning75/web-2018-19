@@ -219,6 +219,13 @@
         padding-right: 0px;
     }
 
+    .services {
+        padding-top: 75px;
+        padding-bottom: px;
+        margin-top: -75px;
+    }
+
+
 
 }
 
@@ -320,6 +327,8 @@
         padding-top: 200px;
     }
 
+
+
 }
 
 /************
@@ -388,6 +397,8 @@
         display: block;
         max-width: 30%;
     }
+
+
 
 }
 
@@ -563,6 +574,8 @@
     .contact_div {
         padding-top: 550px;
     }
+
+
 
 }
 

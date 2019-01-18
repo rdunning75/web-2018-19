@@ -1,7 +1,8 @@
 .double_carousel_card_slider {
-    width: 50%;
+    width: 100%;
     height: 100%;
     justify-self: left;
+    padding-left: 10px;
 }
 
 .col_small_width{
@@ -47,6 +48,10 @@
     margin-top: 1px;
 }
 
+.owl-carousel .owl-item{
+    -webkit-animation-duration: 10s;
+    animation-duration: 10s;
+}
 
 .double_carousel_card {
     width: 100%;
@@ -83,4 +88,39 @@
     font-size: 30px;
     color: white;
 }
+
+.owl-carousel{
+
+}
+
+.owl-nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    bottom: 200px;
+    align-items: center;
+}
+
+.owl-prev{
+    color: white;
+    background: rgba(0,0,0,.3);
+    margin-left: 10px;
+    padding-right: 8px;
+    padding-left: 8px;
+    border-radius: 20px;
+}
+
+.owl-next{
+    color: whitesmoke;
+    background: rgba(0,0,0,.3);
+    padding-right: 8px;
+    padding-left: 8px;
+    margin-right: 10px;
+    border-radius: 20px;
+}
+
+.owl-prev:hover, .owl-next:hover{
+    color: darkgoldenrod;
+}
+
 
