@@ -1,8 +1,7 @@
 .double_carousel_card_slider {
     width: 100%;
     height: 100%;
-    justify-self: left;
-    padding-left: 10px;
+    /*margin-left: -1px;*/
 }
 
 .col_small_width{
