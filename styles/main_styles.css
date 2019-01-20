@@ -1548,7 +1548,7 @@ section {
 }
 
 .elements_section:last-child {
-    margin-bottom: 0px;
+    margin-bottom: 100px;
 }
 
 .elements_title h3 {
@@ -1693,7 +1693,7 @@ margin-top: -250px; margin-left: 35px
 
 .picture_boxes
 {
-    padding-top: 132px;
+    padding-top: 0px;
     padding-bottom: 118px;
 }
 
@@ -1706,6 +1706,8 @@ margin-top: -250px; margin-left: 35px
 {
     border: none;
     border-radius:35px;
+    padding-left: 0;
+    margin-top: 0;
 }
 .pic_box_title
 {
@@ -1784,6 +1786,10 @@ margin-top: -250px; margin-left: 35px
     text-align: center;
     padding-left: 12px;
 
+}
+
+.contact{
+    margin-top: 200px;
 }
 
 
