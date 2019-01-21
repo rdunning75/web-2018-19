@@ -45,9 +45,10 @@ COLOR PALETTE
     src: url('../fonts/myriad-pro-regular.ttf') format('truetype'),
     url('../fonts/myriad-pro-regular.otf') format('opentype');
 }
+
 @font-face {
-	font-family: 'Orbitron';
-	src: url('https://fonts.googleapis.com/css?family=Orbitron');
+    font-family: 'Orbitron';
+    src: url('https://fonts.googleapis.com/css?family=Orbitron');
 }
 
 /*********************************
@@ -344,7 +345,7 @@ section {
 }
 
 .prlx_for_background {
-    height: 50% !important;
+    height: % !important;
 }
 
 /*********************************
@@ -388,8 +389,6 @@ section {
     -o-transition: all 300ms ease;
     transition: all 300ms ease;
 
-
-
 }
 
 .logo a {
@@ -427,7 +426,6 @@ section {
 
 .logo span:last-of-type {
     color: darkgoldenrod;
-
 
 }
 
@@ -490,7 +488,7 @@ section {
 }
 
 .nav_items li:hover a {
-        color: white;
+    color: white;
 }
 
 /*********************************
@@ -770,7 +768,6 @@ section {
     margin-bottom: 125px;
 }
 
-
 .main_slider_shapes {
     position: absolute;
     top: 50%;
@@ -802,10 +799,7 @@ section {
     margin-top: 240px;
     margin-bottom: 60px;
 
-
 }
-
-
 
 .main_slider_content h1 {
     font-weight: 300;
@@ -824,7 +818,7 @@ section {
     color: #FFFFFF;
     padding-left: 15px;
     margin-top: 1px;
-    background-color: rgba(0,0,0,.2);
+    background-color: rgba(0, 0, 0, .2);
     border-radius: 10px;
 
 }
@@ -843,7 +837,7 @@ section {
     bottom: 0;
     top: 93%;
     height: 74px;
-    background: rgba(0,0,0,.4);
+    background: rgba(0, 0, 0, .4);
     margin-left: 1%;
     z-index: 1;
 }
@@ -902,9 +896,6 @@ section {
     color: darkgoldenrod;
 }
 
-
-
-
 /*********************************
 5. Home Social
 *********************************/
@@ -941,8 +932,7 @@ section {
     color: rgba(255, 255, 255, 1);
 }
 
-
-.home_social_icons{
+.home_social_icons {
     height: 75px;
     width: 70px;
     padding-top: 10px;
@@ -1226,7 +1216,6 @@ section {
     background: #FFFFFF;
 }
 
-
 .testimonials_content {
     padding-left: 50px;
     padding-right: 50px;
@@ -1236,7 +1225,6 @@ section {
     width: 250px;
     height: 250px;
 }
-
 
 .testimonials_content p {
     width: 100%;
@@ -1256,7 +1244,7 @@ section {
     width: 100%;
 }
 
-.test_name_membership{
+.test_name_membership {
     font-size: 16px;
     font-weight: 600;
     letter-spacing: 0.2em;
@@ -1290,7 +1278,6 @@ section {
     margin-top: 15px;
 }
 
-
 .testimonials_content p:first-of-type {
     margin-top: -3px;
 }
@@ -1307,7 +1294,8 @@ section {
     width: 100px;
     height: 100px;
 }
-.test_user_pic img{
+
+.test_user_pic img {
     height: 125px;
 }
 
@@ -1352,7 +1340,7 @@ section {
 
 .title_content {
     margin-top: 154px;
-    background-color: rgba(0,0,0,.65);
+    background-color: rgba(0, 0, 0, .65);
     border-radius: 35px;
     padding-left: 30px;
 }
@@ -1416,10 +1404,9 @@ section {
     top: 116px;
 }
 
-.service_item , .service_item_white{
+.service_item, .service_item_white {
     margin-bottom: 75px;
 }
-
 
 .service_item_white h3 {
     color: darkgoldenrod;
@@ -1609,16 +1596,14 @@ section {
 10. Cards
 *********************************/
 
-.zeta_cards
-{
+.zeta_cards {
     text-align: center;
     width: 100%;
     margin-top: -25px;
 
-
 }
-.zeta_card
-{
+
+.zeta_card {
     margin-top: 100px;
     padding-top: 100px;
     padding-bottom: 195px;
@@ -1627,39 +1612,39 @@ section {
     z-index: -1;
 }
 
-.zeta_card_img_only
-{
+.zeta_card_img_only {
 
     padding: 400px 134px 400px 100px;
     margin-bottom: 300px;
     z-index: 1;
 }
-.zeta_card_content
-{
+
+.zeta_card_content {
     tab-index: center;
     margin-top: 50px;
-margin-top: -250px; margin-left: 35px
+    margin-top: -250px;
+    margin-left: 35px
 
 }
-.zeta_card_content h2
-{
+
+.zeta_card_content h2 {
     font-size: 24px;
     letter-spacing: 0.2em;
     color: black;
     text-transform: uppercase;
     margin-bottom: 27px;
 }
-.zeta_card_content p
-{
+
+.zeta_card_content p {
 
     color: black;
 }
-.zeta_card_button
-{
+
+.zeta_card_button {
     margin-top: 46px;
 }
-.zeta_card_background
-{
+
+.zeta_card_background {
     position: absolute;
     opacity: .1;
     top: 0;
@@ -1691,34 +1676,31 @@ margin-top: -250px; margin-left: 35px
 11. Picture Boxes
 *********************************/
 
-.picture_boxes
-{
-    padding-top: 0px;
-    padding-bottom: 118px;
+.picture_boxes {
+    padding-top: 200px;
+    padding-bottom: 100px;
 }
 
-.contact_div{
+.contact_div {
     padding: 300px 0 300px 0;
 }
 
-
-.card
-{
+.card {
     border: none;
-    border-radius:35px;
+    border-radius: 35px;
     padding-left: 0;
     margin-top: 0;
 }
-.pic_box_title
-{
+
+.pic_box_title {
     text-transform: uppercase;
     font-weight: 600;
     letter-spacing: 0.2em;
     margin-top: 40px;
     margin-bottom: 31px;
 }
-.pic_box_link
-{
+
+.pic_box_link {
     font-size: 12px;
     font-weight: 600;
     letter-spacing: 0.2em;
@@ -1731,44 +1713,42 @@ margin-top: -250px; margin-left: 35px
     -o-transition: all 200ms ease;
     transition: all 200ms ease;
 }
-.pic_box_link svg
-{
+
+.pic_box_link svg {
     margin-left: 3px;
 }
-.arrow_poly
-{
+
+.arrow_poly {
     -webkit-transition: all 200ms ease;
     -moz-transition: all 200ms ease;
     -ms-transition: all 200ms ease;
     -o-transition: all 200ms ease;
     transition: all 200ms ease;
 }
-.pic_box_link:hover
-{
+
+.pic_box_link:hover {
     color: #fdeca3;
 }
-.pic_box_link:hover .arrow_poly
-{
+
+.pic_box_link:hover .arrow_poly {
     fill: #fdeca3;
 }
-
 
 /*********************************
 12. Additional Resources
 *********************************/
 
 .about_us_text_phone {
-    background-color: rgba(0,0,0,.05);
+    background-color: rgba(0, 0, 0, .05);
     border-radius: 25px;
 }
-
 
 .about_us_text_computer {
-    background-color: rgba(0,0,0,.05);
+    background-color: rgba(0, 0, 0, .05);
     border-radius: 25px;
 }
 
-.button_on_phone{
+.button_on_phone {
     margin-left: 25vw;
     top: -20px;
 }
@@ -1788,30 +1768,84 @@ margin-top: -250px; margin-left: 35px
 
 }
 
-.contact{
+.contact {
     margin-top: 200px;
 }
 
+.club_incentives {
+
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    margin-left: -15vh;
+    margin-right: -15vh;
+}
+
+.projects_box{
+    height: 1000px;
+    width: 100%;
+    background-position: center;
+    margin-bottom: 100px;
+}
+
+.project_content{
+    width: 100%;
+    font-size: 15px;
+    margin-left: 7%;
+}
+
+
+.project_title {
+    font-size: 50px;
+    margin-left:8%;
+    padding-top: 100px;
+}
+
+.project_title h1 {
+    color: white;
+}
+
+.project_content p, li{
+    color: white;
+}
+
+.project_content li{
+    margin-left: 4%;
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+.project_content u{
+    font-size: 20px;
+}
+
+.shadow-box{
+    background-color: rgba(0,0,0,.5);
+    height: 100%;
+    width: 73%;
+    position: absolute;
+    z-index: 0;
+}
 
 /*********************************
-12. Accodians Boxes
+13. Accodians Boxes
 *********************************/
 
-
-.elements_accordions
-{
+.elements_accordions {
     margin-top: 60px;
     margin-left: 10%;
     margin-right: 10%;
 
 }
-.accordion_container
-{
+
+.accordion_container {
     margin-bottom: 15px;
 
 }
-.accordion
-{
+
+.accordion {
     height: 60px;
     width: 100%;
     background: #f0f0f0;
@@ -1824,16 +1858,16 @@ margin-top: -250px; margin-left: 35px
     transition: all 200ms ease;
 
 }
-.accordion.active
-{
+
+.accordion.active {
     background: #e4e4e4;
 }
-.accordion:active
-{
+
+.accordion:active {
     background: #fffbfa !important;
 }
-.accordion::after
-{
+
+.accordion::after {
     display: -webkit-box;
     display: -moz-box;
     display: -ms-flexbox;
@@ -1858,23 +1892,22 @@ margin-top: -250px; margin-left: 35px
     -o-transition: all 200ms ease;
     transition: all 200ms ease;
 }
-.accordion:hover
-{
+
+.accordion:hover {
     background: #e4e4e4;
 }
-.accordion:hover::after
-{
+
+.accordion:hover::after {
     background: darkgoldenrod;
     border: solid 2px darkgoldenrod;
     color: #FFFFFF;
 }
-.accordion_panel
-{
+
+.accordion_panel {
     padding-left: 30px;
     padding-right: 30px;
     max-height: 0;
     overflow: hidden;
-
 
     -webkit-transition: all 500ms ease;
     -moz-transition: all 500ms ease;
@@ -1882,8 +1915,8 @@ margin-top: -250px; margin-left: 35px
     -o-transition: all 500ms ease;
     transition: all 500ms ease;
 }
-.accordion_panel p
-{
+
+.accordion_panel p {
     padding-top: 15px;
 }
 
