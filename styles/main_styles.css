@@ -1748,6 +1748,10 @@ section {
     border-radius: 25px;
 }
 
+.about_us_text_computer li {
+    color: black;
+}
+
 .button_on_phone {
     margin-left: 25vw;
     top: -20px;

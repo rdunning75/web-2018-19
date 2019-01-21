@@ -21,15 +21,15 @@
 }
 
 .event_slider_content {
-    width: 400px;
     height: 100%;
     margin-top: 60px;
     margin-bottom: 240px;
-    margin-right: 0;
+    margin-left: 10% ;
+    padding-top: 100px;
 }
 
 .event_slider_content h1 {
-    width: 350px;
+
     font-weight: 300;
     line-height: 1.15;
     color: #FFFFFF;
@@ -45,6 +45,8 @@
     color: #FFFFFF;
     padding-left: 5px;
     margin-top: 1px;
+    background-color: rgba(0,0,0,.6);
+    border-radius: 10px;
 }
 
 .owl-carousel .owl-item{
@@ -96,7 +98,7 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    bottom: 200px;
+    bottom: 300px;
     align-items: center;
 }
 
