@@ -138,6 +138,8 @@
 
 
 
+
+
 }
 
 /************
@@ -234,6 +236,11 @@
 
 
 
+
+
+
+
+
 }
 
 /************
@@ -243,6 +250,11 @@
 @media only screen and (max-width: 995px) {
     .hide-on-half {
         display: none;
+    }
+
+    .main_slider_dots {
+    margin-top: -6.5%;
+
     }
 
 
@@ -282,6 +294,10 @@
     .contact_div {
         padding-top: 100px;
     }
+
+
+
+
 
 
 
@@ -333,6 +349,7 @@
     .contact_div {
         padding-top: 200px;
     }
+
 
 
 
