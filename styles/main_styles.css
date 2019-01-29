@@ -1420,6 +1420,18 @@ section {
     max-width: 100%;
 }
 
+.service_item_white li p {
+    color: goldenrod;
+
+}
+
+.important_dates{
+    position: absolute;
+    left: 0;
+    top: 30%;
+    width: 100%;
+}
+
 .icon_container {
     height: 41px;
     width: auto;
