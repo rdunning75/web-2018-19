@@ -817,7 +817,10 @@ section
 
 .card_body{
     padding: 25px 25px 25px 25px;
+}
 
+.card_body li{
+    color: black;
 }
 .service_item h3
 {

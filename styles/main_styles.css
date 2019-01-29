@@ -1687,9 +1687,26 @@ section {
 
 .card {
     border: none;
-    border-radius: 35px;
+    border-radius: 30px;
     padding-left: 0;
+    padding-right: 0;
     margin-top: 0;
+}
+
+.card-img{
+    border-radius: 15px;
+}
+
+.card-text-white{
+    color: whitesmoke;
+}
+
+.card_content li{
+ color: black;
+}
+
+.card_content ul{
+    margin-left: 10%;
 }
 
 .pic_box_title {
@@ -1840,6 +1857,18 @@ section {
     z-index: 0;
 }
 
+.workshops{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.workshop-card{
+    -ms-flex: 0 0 50%;
+    flex: 0 0 50%;
+    max-width: 50%
+}
+
 /*********************************
 13. Accodians Boxes
 *********************************/
@@ -1852,15 +1881,17 @@ section {
 }
 
 .accordion_container {
-    margin-bottom: 15px;
+    margin-bottom: 100px;
+
 
 }
 
 .accordion {
-    height: 60px;
+    height: 62px;
     width: 100%;
-    background: rgba(0,0,0,.5);
+    background: rgba(0,0,0,.1);
     padding-left: 30px;
+
     cursor: pointer;
     -webkit-transition: all 200ms ease;
     -moz-transition: all 200ms ease;
@@ -1906,6 +1937,7 @@ section {
 
 .accordion:hover {
     background: #e4e4e4;
+
 }
 
 .accordion:hover::after {
@@ -1920,12 +1952,15 @@ section {
     max-height: 0;
     overflow: hidden;
 
+
     -webkit-transition: all 500ms ease;
     -moz-transition: all 500ms ease;
     -ms-transition: all 500ms ease;
     -o-transition: all 500ms ease;
     transition: all 500ms ease;
 }
+
+
 
 .accordion_panel p {
     padding-top: 15px;
