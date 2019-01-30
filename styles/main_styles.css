@@ -1432,7 +1432,7 @@ section {
     position: absolute;
     left: 0;
     top: 30%;
-    width: 100%;
+    width: 1000px;
 }
 
 .icon_container {
@@ -1887,11 +1887,27 @@ section {
 
 .fake-button{
     background-color: #f1c455;
-
     border-radius: 100px;
-
     padding: 10px 150px 10px 150px;
     color: black;
+}
+
+.fake-button-important-dates{
+    background-color: #f1c455;
+    border-radius: 100px;
+    padding-left: 70px;
+    padding-right: 75px;
+    max-height: 30px;
+    color: black;
+
+}
+
+.important_dates_content div p{
+    color: #000000;
+}
+
+.important_dates_content  p{
+    color: whitesmoke;
 }
 
 /*********************************
