@@ -70,6 +70,9 @@ body {
     color: #6e6e6e;
 }
 
+
+
+
 div {
     display: block;
     position: relative;
@@ -1879,6 +1882,16 @@ section {
     -ms-flex: 0 0 50%;
     flex: 0 0 50%;
     max-width: 50%
+}
+
+
+.fake-button{
+    background-color: #f1c455;
+
+    border-radius: 100px;
+
+    padding: 10px 150px 10px 150px;
+    color: black;
 }
 
 /*********************************
