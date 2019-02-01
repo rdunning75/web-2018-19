@@ -1173,7 +1173,7 @@ section {
     top: 28px;
     left: 0;
     width: 100%;
-    height: calc(100% - 28px);
+    height: 500px;
     box-shadow: 0 22px 35px rgba(0, 0, 0, 0.28);
 }
 
@@ -1205,9 +1205,9 @@ section {
     z-index: 10;
 }
 
-.payment_buttons {
-    z-index: 15;
-}
+/*.payment_buttons {*/
+    /*z-index: 15;*/
+/*}*/
 
 .testimonials_item_double {
     padding-top: 25px;

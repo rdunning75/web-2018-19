@@ -15,6 +15,6 @@ window.onclick = function(event) {
             if (openDropdown.classList.contains('show')) {
                 openDropdown.classList.remove('show');
             }
-        }s
+        }
     }
 }
