@@ -37,7 +37,7 @@
 
     .card-text{
         margin-left: 15%;
-        margin-top: 10%;
+        margin-top: 2%;
     }
 
 
@@ -282,10 +282,7 @@
         display: none;
     }
 
-    .main_slider_dots {
-    margin-top: -6.5%;
 
-    }
 
 
 
@@ -299,6 +296,7 @@
 
     .card-text{
         margin-left: 10%;
+
     }
 
 
@@ -312,7 +310,7 @@
 
     .card-text{
         margin-left: 5%;
-        margin-top: 0%;
+        margin-top: -10%;
     }
 
 
@@ -325,6 +323,10 @@
 @media only screen and (max-width: 770px) {
 
     .hidden-on-phone .testimonials_content {
+        display: none;
+    }
+
+    .hidden-on-phone {
         display: none;
     }
 
@@ -350,6 +352,10 @@
 
 @media only screen and  (min-width: 770px) {
     .hidden-on-tablet .testimonials_content {
+        display: none;
+    }
+
+    .hidden-on-tablet{
         display: none;
     }
 
@@ -393,6 +399,11 @@
 
     .contact_div {
         padding-top: 200px;
+    }
+
+
+    .hidden-on-tablet{
+        display: none;
     }
 
 
@@ -665,6 +676,8 @@
         max-width: 100%;
         margin-top: 50px;
     }
+
+
 
 
 
