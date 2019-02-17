@@ -1729,6 +1729,11 @@ section {
     color: darkgoldenrod;
 }
 
+.card-text-lightgold{
+    color: gold;
+}
+
+
 .card_content li{
  color: black;
 }
@@ -1852,6 +1857,19 @@ section {
 }
 
 
+.project_content li a{
+   color: gold;
+    text-decoration: underline;
+
+}
+
+.project_content li a:hover{
+    color: white;
+    background-color: rgba(209, 168, 76, 0.3);
+    text-decoration: underline;
+}
+
+
 .project_title {
     font-size: 50px;
     margin-left:8%;
@@ -1916,6 +1934,7 @@ section {
     padding-right: 75px;
     max-height: 30px;
     color: black;
+    z-index: 1;
 
 }
 

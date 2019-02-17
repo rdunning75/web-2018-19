@@ -266,6 +266,9 @@
         padding-bottom: px;
         margin-top: -75px;
     }
+    .zeta_cards{
+        padding-bottom: 0;
+    }
 
 
 
@@ -299,6 +302,11 @@
 
     }
 
+    .zeta_cards{
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
+
 
 }
 
@@ -312,6 +320,14 @@
         margin-left: 5%;
         margin-top: -10%;
     }
+
+    .zeta_cards{
+        padding-bottom: 100px;
+    }
+
+
+
+
 
 
 }
@@ -336,6 +352,10 @@
 
     .contact_div {
         padding-top: 100px;
+    }
+
+    .zeta_cards{
+        padding-bottom: 250px;
     }
 
 
@@ -406,12 +426,33 @@
         display: none;
     }
 
+    .zeta_cards{
+        padding-bottom: 350px;
+    }
 
 
 
 
 
 }
+
+
+@media only screen and (max-width: 675px) {
+
+    .zeta_cards{
+        padding-bottom: 550px;
+    }
+
+}
+
+@media only screen and (max-width: 600px) {
+
+    .zeta_cards{
+        padding-bottom: 800px;
+    }
+
+}
+
 
 /************
 11. 575px
@@ -478,6 +519,10 @@
     .hamburger_container {
         display: block;
         max-width: 30%;
+    }
+
+    .zeta_cards{
+        padding-bottom: 1000px;
     }
 
 
@@ -679,13 +724,6 @@
 
 
 
-
-
-
-
-
-
-
 }
 
 /************
@@ -700,9 +738,15 @@
     .zeta_card_img_only {
         max-width: 300px;
         margin: 0 auto;
-        padding-left: 15px;
+        padding;g-left: 15px;
         padding-right: 15px;
     }
+
+
+    .zeta_cards{
+        padding-bottom: 1900px;
+    }
+
 
 
 
@@ -737,6 +781,10 @@
         padding-left: 0px;
         padding-right: 0px;
     }
+
+
+
+
 
 
 
