@@ -1,19 +1,21 @@
 .double_carousel_card_slider {
-    width: 100%;
+    width: 75%;
     height: 100%;
-    /*margin-left: -1px;*/
+    display: block;
+    position: absolute;
+    left: 1000px;
 }
 
 .col_small_width{
     width: 100%;
 }
 
-.event_slider_bg{
+.event_slider_bg {
     position: absolute;
     top: 0;
     left: 0;
     width: 100%;
-    height: 500px;
+    height: 653px;
     background-clip: border-box;
     background-repeat: no-repeat;
     background-size: cover;
@@ -21,9 +23,9 @@
 }
 
 .event_slider_content {
-    height: 100%;
+    height: 150%;
     margin-top: 60px;
-    margin-bottom: 240px;
+    margin-bottom: 100%;
     margin-left: 10% ;
     padding-top: 100px;
 }

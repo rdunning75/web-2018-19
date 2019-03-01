@@ -378,7 +378,7 @@ $(document).ready(function()
 			        triggerHook: 1,
 			        duration: "200%"
 			    })
-			    .setTween(TweenMax.from(bcg, 1, {y: '-30%', ease:Power0.easeNone}))
+			    .setTween(TweenMax.from(bcg, 1, {y: '0', ease:Power0.easeNone}))
 			    .addTo(ctrl);
 			});
 		}

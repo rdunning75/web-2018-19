@@ -4,7 +4,7 @@
 /******************************
 
 [Table of Contents]
-
+z
 1. 1525px
 2. 1440px
 3. 1280px
@@ -23,21 +23,33 @@
 
 @media only screen and (max-width: 1600px) {
 
-    .workshops{
+    .workshops {
         flex-direction: column;
         justify-content: center;
     }
 
-    .workshop-card{
+    .workshop-card {
         -ms-flex: 0 0 100%;
         flex: 0 0 100%;
         max-width: 100%;
         margin-top: 50px;
     }
 
-    .card-text{
+    .card-text {
         margin-left: 15%;
         margin-top: 2%;
+    }
+
+    .event_slider_bg {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 90%;
+        height: 656px;
+        background-clip: border-box;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center;
     }
 
 
@@ -49,13 +61,21 @@
 
 @media only screen and (max-width: 1440px) {
 
-
     .main_slider_shapes {
         right: 10%;
     }
 
-
-
+    .event_slider_bg {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 90%;
+        height: 666px;
+        background-clip: border-box;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center;
+    }
 
 }
 
@@ -64,6 +84,18 @@
 ************/
 
 @media only screen and (max-width: 1380px) {
+
+    .event_slider_bg {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 90%;
+        height: 654px;
+        background-clip: border-box;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center;
+    }
 
 }
 
@@ -89,20 +121,12 @@
         display: block;
     }
 
-
-    .accordion_content{
+    .accordion_content {
         display: flex;
         flex-direction: column;
         justify-content: center;
         margin-left: 20%;
-
-
-
     }
-
-
-
-
 
 }
 
@@ -111,6 +135,11 @@
 ************/
 
 @media only screen and (max-width: 1199px) {
+
+    .flyer_boxes {
+        display: flex;
+        flex-direction: column;
+    }
 
 }
 
@@ -160,7 +189,7 @@
         height: calc(100vh - 110px);
     }
 
-    .main_slider_content{
+    .main_slider_content {
 
         margin-top: 240px;
         margin-bottom: 200px;
@@ -169,13 +198,6 @@
     .main_slider_nav {
         display: none;
     }
-
-
-
-
-
-
-
 
 }
 
@@ -188,11 +210,17 @@
         padding-top: 100px;
     }
 
-
-
-
-
-
+    .event_slider_bg {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 90%;
+        height: 666px;
+        background-clip: border-box;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center;
+    }
 
 }
 
@@ -201,7 +229,6 @@
 ************/
 
 @media only screen and (max-width: 991px) {
-
 
     .features_col {
         padding-bottom: 0px;
@@ -263,13 +290,39 @@
 
     .services {
         padding-top: 75px;
-        padding-bottom: px;
+        margin-bottom: 150px;
         margin-top: -75px;
     }
-    .zeta_cards{
-        padding-bottom: 0;
+
+    .services_background {
+        position: absolute;
+        padding-bottom: 1000px;
+        left: 0;
+        top: -25px;
+        width: 100%;
+        height: 100%;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center;
     }
 
+    .zeta_cards {
+        margin-bottom: 50px;
+    }
+
+    .club_incentives {
+        background-size: cover;
+        background-repeat: no-repeat;
+        margin-top: 100px;
+        margin-bottom: 25px;
+        margin-left: -15vh;
+        margin-right: -15vh;
+
+    }
+
+    .margin-bottom-1000 {
+        margin-bottom: 1000px;
+    }
 
 
 
@@ -285,10 +338,6 @@
         display: none;
     }
 
-
-
-
-
 }
 
 @media only screen and (min-width: 995px) {
@@ -297,16 +346,15 @@
         display: none;
     }
 
-    .card-text{
+    .card-text {
         margin-left: 10%;
 
     }
 
-    .zeta_cards{
+    .zeta_cards {
         padding-top: 100px;
-        padding-bottom: 100px;
+        margin-bottom: 100px;
     }
-
 
 }
 
@@ -316,19 +364,14 @@
 
 @media only screen and (max-width: 880px) {
 
-    .card-text{
+    .card-text {
         margin-left: 5%;
         margin-top: -10%;
     }
 
-    .zeta_cards{
-        padding-bottom: 100px;
+    .zeta_cards {
+        margin-bottom: 100px;
     }
-
-
-
-
-
 
 }
 
@@ -354,19 +397,18 @@
         padding-top: 100px;
     }
 
-    .zeta_cards{
-        padding-bottom: 250px;
+    .zeta_cards {
+        margin-bottom: 250px;
     }
 
+    .gen_events_text{
+        margin-left: 60px;
+        padding-left: 15px;
+    }
 
-
-
-
-
-
-
-
-
+    .gen_events_text_container{
+        width: 800px;
+    }
 
 }
 
@@ -375,7 +417,7 @@
         display: none;
     }
 
-    .hidden-on-tablet{
+    .hidden-on-tablet {
         display: none;
     }
 
@@ -383,15 +425,13 @@
         width: 50px;
     }
 
-
-
 }
 
 /************
 10. 767px
 ************/
 
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 769px) {
     .main_slider_content {
         width: 100%;
     }
@@ -421,38 +461,44 @@
         padding-top: 200px;
     }
 
-
-    .hidden-on-tablet{
+    .hidden-on-tablet {
         display: none;
     }
 
-    .zeta_cards{
-        padding-bottom: 350px;
+    .zeta_cards {
+        margin-bottom: 350px;
     }
 
+    .double_carousel_card_slider {
+        width: 50%;
+        height: 100%;
+        display: block;
+        position: absolute;
+        left: 970px;
+    }
 
-
+    .margin-bottom-1000 {
+        margin-bottom: 2100px;
+    }
 
 
 }
 
-
 @media only screen and (max-width: 675px) {
 
-    .zeta_cards{
-        padding-bottom: 550px;
+    .zeta_cards {
+        margin-bottom: 550px;
     }
 
 }
 
 @media only screen and (max-width: 600px) {
 
-    .zeta_cards{
-        padding-bottom: 800px;
+    .zeta_cards {
+        margin-bottom: 800px;
     }
 
 }
-
 
 /************
 11. 575px
@@ -521,13 +567,9 @@
         max-width: 30%;
     }
 
-    .zeta_cards{
+    .zeta_cards {
         padding-bottom: 1000px;
     }
-
-
-
-
 
 
 
@@ -543,8 +585,6 @@
     .contact_div {
         padding-top: 500px;
     }
-
-
 
 }
 
@@ -709,17 +749,46 @@
         padding-top: 550px;
     }
 
-    .card-text{
+    .card-text {
         margin-left: 0;
         margin-top: 0;
     }
 
 
-    .workshop-card{
-        -ms-flex: 0 0 100%;
-        flex: 0 0 100%;
-        max-width: 100%;
-        margin-top: 50px;
+
+    .zeta_cards {
+        margin-bottom: 2000px
+
+    }
+
+    .gen_events_text{
+        margin-left: 60px;
+        padding-left: 15px;
+    }
+
+    .gen_events_text_container{
+        width: 550px;
+    }
+    .projects_box {
+        height: 1300px;
+        width: 100%;
+        background-position: center;
+        margin-bottom: 100px;
+    }
+    .shadow-box {
+        background-color: rgba(0, 0, 0, .5);
+        height:  1300px;
+        width: 100%;
+        position: absolute;
+        z-index: 0;
+    }
+
+    .double_carousel_card_slider {
+        width: 75%;
+        height: 100%;
+        display: block;
+        position: absolute;
+        left: 1000px;
     }
 
 
@@ -729,7 +798,6 @@
 /************
 14. 414px
 ************/
-
 @media only screen and (max-width: 414px) {
     .contact_div {
         padding-top: 675px;
@@ -738,18 +806,53 @@
     .zeta_card_img_only {
         max-width: 300px;
         margin: 0 auto;
-        padding;g-left: 15px;
+        paddingg-left: 15px;
         padding-right: 15px;
     }
 
+    .zeta_cards {
+        margin-bottom: 1250px
 
-    .zeta_cards{
-        padding-bottom: 1900px;
     }
 
+    .gen_events_text{
+        margin-left: 45px;
+    }
 
+    .gen_events_text_container{
+        width: 500px;
+    }
 
+    .projects_box {
+        height: 1400px;
+        width: 100%;
+        background-position: center;
+        margin-bottom: 100px;
+    }
 
+    .shadow-box {
+        background-color: rgba(0, 0, 0, .5);
+        height:  1400px;
+        width: 100%;
+        position: absolute;
+        z-index: 0;
+    }
+
+    .double_carousel_card_slider {
+        width: 75%;
+        height: 100%;
+        display: block;
+        position: absolute;
+        left: 1000px;
+    }
+
+    .double_carousel_card_slider {
+        width: 75%;
+        height: 100%;
+        display: block;
+        position: absolute;
+        left: 1000px;
+    }
 
 
 
@@ -758,7 +861,6 @@
 /************
 15. 320 px
 ************/
-
 @media only screen and (max-width: 320px) {
     .contact_div {
         padding-top: 600px;
@@ -782,15 +884,54 @@
         padding-right: 0px;
     }
 
+    .zeta_cards {
+        margin-bottom: 300px;
+    }
 
+    .gen_events_text{
+        margin-left: 25px;
+    }
 
+    .gen_events_text_container{
+      width: 500px;
+    }
 
+    .projects_box {
+        height: 1500px;
+        width: 100%;
+        background-position: center;
+        margin-bottom: 100px;
+    }
 
+    .double_carousel_card_slider {
+        width: 75%;
+        height: 100%;
+        display: block;
+        position: absolute;
+        left: 1000px;
+    }
+
+    .shadow-box {
+        background-color: rgba(0, 0, 0, .5);
+        height:  1500px;
+        width: 100%;
+        position: absolute;
+        z-index: 0;
+    }
+
+    .workshop-card {
+        -ms-flex: 0 0 100%;
+        flex: 0 0 100%;
+        max-width: 100%;
+        margin-top: 500px;
+    }
 
 
 
 
 }
+
+
 
 
 
