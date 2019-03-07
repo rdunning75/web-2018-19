@@ -44,14 +44,13 @@ z
         position: absolute;
         top: 0;
         left: 0;
-        width: 90%;
-        height: 656px;
+        width: 100%;
+        height: 728px;
         background-clip: border-box;
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center center;
     }
-
 
 }
 
@@ -69,8 +68,8 @@ z
         position: absolute;
         top: 0;
         left: 0;
-        width: 90%;
-        height: 666px;
+        width: 100%;
+        height: 728px;
         background-clip: border-box;
         background-repeat: no-repeat;
         background-size: cover;
@@ -89,12 +88,13 @@ z
         position: absolute;
         top: 0;
         left: 0;
-        width: 90%;
-        height: 654px;
+        width: 100%;
+        height: 728px;
         background-clip: border-box;
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center center;
+
     }
 
 }
@@ -128,17 +128,48 @@ z
         margin-left: 20%;
     }
 
+    .event_slider_bg {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 728px;
+        background-clip: border-box;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center;
+
+
+    }
 }
 
 /************
 4. 1199px
 ************/
-
 @media only screen and (max-width: 1199px) {
 
     .flyer_boxes {
         display: flex;
         flex-direction: column;
+
+    }
+
+    .zeta_card_content {
+        margin-bottom: 300px;
+    }
+
+    .event_slider_bg {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 728px;
+        padding-right: 200px;
+        background-clip: border-box;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center;
+
     }
 
 }
@@ -146,7 +177,6 @@ z
 /************
 4. 1100px
 ************/
-
 @media only screen and (max-width: 1100px) {
     .test_slider_nav_left {
         left: 15px;
@@ -199,12 +229,29 @@ z
         display: none;
     }
 
+    .zeta_card_content {
+        margin-bottom: 400px;
+    }
+
+    .event_slider_bg {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 728px;
+        margin-right: 200px;
+        background-clip: border-box;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center;
+
+    }
+
 }
 
 /************
 5. 1024px
 ************/
-
 @media only screen and (max-width: 1024px) {
     .contact_div {
         padding-top: 100px;
@@ -214,12 +261,18 @@ z
         position: absolute;
         top: 0;
         left: 0;
-        width: 90%;
-        height: 666px;
+        width: 100%;
+        height: 728px;
+        margin-right: 200px;
+
         background-clip: border-box;
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center center;
+    }
+
+    .zeta_card_content {
+        margin-bottom: 500px;
     }
 
 }
@@ -227,7 +280,6 @@ z
 /************
 6. 991px
 ************/
-
 @media only screen and (max-width: 991px) {
 
     .features_col {
@@ -294,20 +346,8 @@ z
         margin-top: -75px;
     }
 
-    .services_background {
-        position: absolute;
-        padding-bottom: 1000px;
-        left: 0;
-        top: -25px;
-        width: 100%;
-        height: 100%;
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-position: center center;
-    }
-
     .zeta_cards {
-        margin-bottom: 50px;
+        margin-bottom: 100px;
     }
 
     .club_incentives {
@@ -324,15 +364,25 @@ z
         margin-bottom: 1000px;
     }
 
+    .important_dates {
+        position: absolute;
+        left: 50px;
+        top: 1000px;
+        width: 1000px;
+    }
 
-
+    .services_home {
+        padding-top: 75px;
+        margin-bottom: 80px;
+        margin-top: -75px;
+        height: 1800px;
+    }
 
 }
 
 /************
 7. 959px
 ************/
-
 @media only screen and (max-width: 995px) {
     .hide-on-half {
         display: none;
@@ -361,7 +411,6 @@ z
 /************
 8. 880px
 ************/
-
 @media only screen and (max-width: 880px) {
 
     .card-text {
@@ -378,7 +427,6 @@ z
 /************
 9. 768px
 ************/
-
 @media only screen and (max-width: 770px) {
 
     .hidden-on-phone .testimonials_content {
@@ -401,13 +449,17 @@ z
         margin-bottom: 250px;
     }
 
-    .gen_events_text{
+    .gen_events_text {
         margin-left: 60px;
         padding-left: 15px;
     }
 
-    .gen_events_text_container{
+    .gen_events_text_container {
         width: 800px;
+    }
+
+    .main_slider_dots {
+        top: 89%;
     }
 
 }
@@ -430,7 +482,6 @@ z
 /************
 10. 767px
 ************/
-
 @media only screen and (max-width: 769px) {
     .main_slider_content {
         width: 100%;
@@ -477,10 +528,11 @@ z
         left: 970px;
     }
 
+
+
     .margin-bottom-1000 {
         margin-bottom: 2100px;
     }
-
 
 }
 
@@ -503,7 +555,6 @@ z
 /************
 11. 575px
 ************/
-
 @media only screen and (max-width: 575px) {
     h2 {
         font-size: 24px;
@@ -568,18 +619,14 @@ z
     }
 
     .zeta_cards {
-        padding-bottom: 1000px;
+        padding-bottom: 100px;
     }
-
-
-
 
 }
 
 /************
 11. 539px
 ************/
-
 @media only screen and (max-width: 539px) {
 
     .contact_div {
@@ -591,7 +638,6 @@ z
 /************
 13. 480px
 ************/
-
 @media only screen and (max-width: 480px) {
     h1 {
         font-size: 24px;
@@ -754,30 +800,30 @@ z
         margin-top: 0;
     }
 
-
-
     .zeta_cards {
-        margin-bottom: 2000px
+        margin-bottom: 1000px;
 
     }
 
-    .gen_events_text{
+    .gen_events_text {
         margin-left: 60px;
         padding-left: 15px;
     }
 
-    .gen_events_text_container{
+    .gen_events_text_container {
         width: 550px;
     }
+
     .projects_box {
         height: 1300px;
         width: 100%;
         background-position: center;
         margin-bottom: 100px;
     }
+
     .shadow-box {
         background-color: rgba(0, 0, 0, .5);
-        height:  1300px;
+        height: 1300px;
         width: 100%;
         position: absolute;
         z-index: 0;
@@ -790,8 +836,6 @@ z
         position: absolute;
         left: 1000px;
     }
-
-
 
 }
 
@@ -811,16 +855,20 @@ z
     }
 
     .zeta_cards {
-        margin-bottom: 1250px
-
+        margin-bottom: 100px;
     }
 
-    .gen_events_text{
+    .zeta_card_ {
+        margin-bottom: 100px;
+    }
+
+    .gen_events_text {
         margin-left: 45px;
     }
 
-    .gen_events_text_container{
-        width: 500px;
+    .gen_events_text_container {
+        width: 650px;
+        height: 900px;
     }
 
     .projects_box {
@@ -832,7 +880,7 @@ z
 
     .shadow-box {
         background-color: rgba(0, 0, 0, .5);
-        height:  1400px;
+        height: 1400px;
         width: 100%;
         position: absolute;
         z-index: 0;
@@ -845,16 +893,6 @@ z
         position: absolute;
         left: 1000px;
     }
-
-    .double_carousel_card_slider {
-        width: 75%;
-        height: 100%;
-        display: block;
-        position: absolute;
-        left: 1000px;
-    }
-
-
 
 }
 
@@ -888,12 +926,12 @@ z
         margin-bottom: 300px;
     }
 
-    .gen_events_text{
+    .gen_events_text {
         margin-left: 25px;
     }
 
-    .gen_events_text_container{
-      width: 500px;
+    .gen_events_text_container {
+        width: 500px;
     }
 
     .projects_box {
@@ -913,7 +951,7 @@ z
 
     .shadow-box {
         background-color: rgba(0, 0, 0, .5);
-        height:  1500px;
+        height: 1500px;
         width: 100%;
         position: absolute;
         z-index: 0;
@@ -926,8 +964,12 @@ z
         margin-top: 500px;
     }
 
-
-
+    .important_dates {
+        position: absolute;
+        left: 0;
+        top: 30%;
+        width: 1000px;
+    }
 
 }
 
