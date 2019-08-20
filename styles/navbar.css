@@ -55,7 +55,7 @@
 
 .main_nav
 {
-	/*margin-right: -3px;*/
+	margin-right: -3px;
 	height: 100%;
 	flex-basis: 200%;
 	text-align: right;

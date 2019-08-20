@@ -374,13 +374,11 @@ section {
 *********************************/
 
 .logo_container {
-    flex-basis: 20%;
+    /*flex-basis: 20%;*/
+
 }
 
-.logo {
 
-    margin-left: 25px;
-}
 
 .logo img {
     -webkit-transition: all 300ms ease;
@@ -388,6 +386,8 @@ section {
     -ms-transition: all 300ms ease;
     -o-transition: all 300ms ease;
     transition: all 300ms ease;
+    margin-left: 25px;
+    margin-right: 100px;
 
 }
 
@@ -500,7 +500,7 @@ section {
     cursor: pointer;
     padding: 10px;
     margin-right: -10px;
-    flex-basis: 50%;
+    flex-basis: 100%;
     text-align: right;
 }
 

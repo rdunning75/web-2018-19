@@ -54,6 +54,9 @@ z
 
 }
 
+@media only screen and (max-width: 1460px) {
+}
+
 /************
 2. 1440px
 ************/
@@ -97,6 +100,14 @@ z
 
     }
 
+    .hamburger_container {
+        display: block;
+    }
+
+    .main_nav {
+        display: none;
+    }
+
 }
 
 /************
@@ -111,10 +122,6 @@ z
 
     .main_slider_shapes {
         right: 5%;
-    }
-
-    .main_nav {
-        display: none;
     }
 
     .hamburger_container {
@@ -138,9 +145,8 @@ z
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center center;
-
-
     }
+
 }
 
 /************
@@ -152,6 +158,10 @@ z
         display: flex;
         flex-direction: column;
 
+    }
+
+    .main_nav {
+        display: none;
     }
 
     .zeta_card_content {
@@ -527,8 +537,6 @@ z
         position: absolute;
         left: 970px;
     }
-
-
 
     .margin-bottom-1000 {
         margin-bottom: 2100px;
